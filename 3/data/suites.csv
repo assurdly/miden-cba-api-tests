@@ -1,0 +1,891 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","18","Bulk Upload","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Batches","User Management","",""
+"","14","Enable 2FA","Core_Banking_QA","Sat Jan 24 16:06:32 UTC 2026","broken","Sat Jan 24 16:06:32 UTC 2026","","Auth","",""
+"","12","Restore Employee","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","13","Approve Request - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","11","Update Customer - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:42 UTC 2026","broken","Sat Jan 24 16:06:42 UTC 2026","Corporate Customer","Customer Management","",""
+"","11","Assign Role to a User","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > User Admin","User Management","",""
+"","11","Reject Request","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","11","Role Transaction Limits - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles Transaction Limits","User Management","",""
+"#### Description:
+
+This API allows you to configure and enforce password policies for user accounts. The password policy parameters include settings for minimum and maximum password lengths, allowed failed login attempts, password reuse, and specific character requirements such as lowercase letters, special characters, and numbers. This ensures stronger password security for user accounts.
+
+#### Usage:
+
+Use this API to set the password requirements that users must adhere to when creating or updating their passwords. This policy helps to maintain a secure environment by enforcing password complexity and expiration rules.
+
+#### Request Body Parameters:
+
+1. **`minimumLength`** (Integer):  
+    Specifies the minimum required length for user passwords.  
+    **Example**: `8` – Password must be at least 8 characters long.
+    
+2. **`maximumLength`** (Integer):  
+    Specifies the maximum allowable length for user passwords.  
+    **Example**: `16` – Password can be a maximum of 16 characters long.
+    
+3. **`maxFailedLoginAttempts`** (Integer):  
+    The maximum number of failed login attempts allowed before the account is locked or other security measures are triggered.  
+    **Example**: `3` – The user account will be locked after 3 failed login attempts.
+    
+4. **`passwordReuseCount`** (Integer):  
+    Defines how many previous passwords a user must cycle through before reusing the same password.  
+    **Example**: `1` – Users cannot reuse their last password.
+    
+5. **`minLowerCaseLength`** (Integer):  
+    The minimum number of lowercase letters required in the password.  
+    **Example**: `1` – Password must contain at least one lowercase letter.
+    
+6. **`minSpecialCharacters`** (Integer):  
+    The minimum number of special characters (such as `@`, `#`, `$`) required in the password.  
+    **Example**: `1` – Password must contain at least one special character.
+    
+7. **`minNumbers`** (Integer):  
+    The minimum number of numeric digits required in the password.  
+    **Example**: `1` – Password must contain at least one numeric digit.
+    
+8. **`minPasswordDuration`** (Datetime in ISO 8601 format):  
+    Specifies the date until which the password is valid. After this date, the user will be prompted to update their password.  
+    **Example**: `""2025-01-07T15:43:47.550000Z""` – The password will expire on January 7, 2025.","20","Create Password Policy - Required Fields","Core_Banking_QA","Sat Jan 24 16:06:31 UTC 2026","broken","Sat Jan 24 16:06:31 UTC 2026","","Auth","",""
+"","10","Approve Request","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","Transaction Limits > User Transaction Limit","User Management","",""
+"","11","Pending by Id","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","158","Approved - wrong bearer token","Core_Banking_QA","Sat Jan 24 16:06:46 UTC 2026","failed","Sat Jan 24 16:06:47 UTC 2026","Products","Loan","",""
+"","11","Pending by ID: User Transaction Limits - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","Transaction Limits > User Transaction Limit","User Management","",""
+"","16","Validate 2FA Token - Invalid Token","Core_Banking_QA","Sat Jan 24 16:06:32 UTC 2026","broken","Sat Jan 24 16:06:32 UTC 2026","","Auth","",""
+"","895","Product Pending","Core_Banking_QA","Sat Jan 24 16:06:47 UTC 2026","passed","Sat Jan 24 16:06:47 UTC 2026","Products","Loan","",""
+"","12","Validate BVN - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"","11","Deactivate User - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","11","Cancel Batch Request - Invalid","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Batches","User Management","",""
+"","11","Approve Request: Tlll - Invalid","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","User Management > Tills","User Management","",""
+"","19","Status - Active","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"","14","Bulk Upload- Invalid","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Batches","User Management","",""
+"","358","Pending by ID- Invalid token","Core_Banking_QA","Sat Jan 24 16:06:49 UTC 2026","failed","Sat Jan 24 16:06:49 UTC 2026","Products","Loan","",""
+"","11","Restore Role - Already Active","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","12","Update User: Till - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","User Management > Tills","User Management","",""
+"","12","Pending by ID: User Transaction Limits - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Transaction Limits > User Transaction Limit","User Management","",""
+"","11","Create Transaction Limits - Invalid TransactionType","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Transaction Limits > Limits","User Management","",""
+"","12","Create Employee- Invalid Department","Core_Banking_QA","Sat Jan 24 16:06:32 UTC 2026","broken","Sat Jan 24 16:06:32 UTC 2026","Employees > Single","User Management","",""
+"#### Description:
+
+This API allows you to configure and enforce password policies for user accounts. The password policy parameters include settings for minimum and maximum password lengths, allowed failed login attempts, password reuse, and specific character requirements such as lowercase letters, special characters, and numbers. This ensures stronger password security for user accounts.
+
+#### Usage:
+
+Use this API to set the password requirements that users must adhere to when creating or updating their passwords. This policy helps to maintain a secure environment by enforcing password complexity and expiration rules.
+
+#### Request Body Parameters:
+
+1. **`minimumLength`** (Integer):  
+    Specifies the minimum required length for user passwords.  
+    **Example**: `8` – Password must be at least 8 characters long.
+    
+2. **`maximumLength`** (Integer):  
+    Specifies the maximum allowable length for user passwords.  
+    **Example**: `16` – Password can be a maximum of 16 characters long.
+    
+3. **`maxFailedLoginAttempts`** (Integer):  
+    The maximum number of failed login attempts allowed before the account is locked or other security measures are triggered.  
+    **Example**: `3` – The user account will be locked after 3 failed login attempts.
+    
+4. **`passwordReuseCount`** (Integer):  
+    Defines how many previous passwords a user must cycle through before reusing the same password.  
+    **Example**: `1` – Users cannot reuse their last password.
+    
+5. **`minLowerCaseLength`** (Integer):  
+    The minimum number of lowercase letters required in the password.  
+    **Example**: `1` – Password must contain at least one lowercase letter.
+    
+6. **`minSpecialCharacters`** (Integer):  
+    The minimum number of special characters (such as `@`, `#`, `$`) required in the password.  
+    **Example**: `1` – Password must contain at least one special character.
+    
+7. **`minNumbers`** (Integer):  
+    The minimum number of numeric digits required in the password.  
+    **Example**: `1` – Password must contain at least one numeric digit.
+    
+8. **`minPasswordDuration`** (Datetime in ISO 8601 format):  
+    Specifies the date until which the password is valid. After this date, the user will be prompted to update their password.  
+    **Example**: `""2025-01-07T15:43:47.550000Z""` – The password will expire on January 7, 2025.","48","Create Password Policy","Core_Banking_QA","Sat Jan 24 16:06:31 UTC 2026","broken","Sat Jan 24 16:06:31 UTC 2026","","Auth","",""
+"","11","Draft by ID: Retail","Core_Banking_QA","Sat Jan 24 16:06:42 UTC 2026","broken","Sat Jan 24 16:06:42 UTC 2026","Drafts","Customer Management","",""
+"","12","Download 'Bulk Upload' Template - Invalid Format","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Batches","User Management","",""
+"","11","Validate ID","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","11","User Stats - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","12","Create Retail Customer Draft","Core_Banking_QA","Sat Jan 24 16:06:42 UTC 2026","broken","Sat Jan 24 16:06:42 UTC 2026","Drafts","Customer Management","",""
+"","10","Update User","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","11","Delete User by ID","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","138","Get Batches-Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","passed","Sat Jan 24 16:06:33 UTC 2026","Employees > Batches","User Management","",""
+"","19","Status - InActive","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"","11","Enable User","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > User Admin","User Management","",""
+"","136","Fees: Pending","Core_Banking_QA","Sat Jan 24 16:51:14 UTC 2026","passed","Sat Jan 24 16:51:14 UTC 2026","Fees","Loan","",""
+"#### DESCRIPTION:
+
+This endpoint allows you to update the password policy by sending a PUT request to the specified URL. The request should include the minimum and maximum length of the password, maximum failed login attempts, password reuse count, minimum lowercase length, minimum special characters, minimum numbers, and the minimum password duration.
+
+#### **USAGE:**
+
+Use this endpoint to update the password policy with the desired parameters such as minimum and maximum length, failed login attempts, password reuse count, and other password policy constraints.
+
+#### **Request Body Key Terms & Definitions**
+
+- `minimumLength` (number): The minimum length required for the password.
+    
+- `maximumLength` (number): The maximum length allowed for the password.
+    
+- `maxFailedLoginAttempts` (number): The maximum number of failed login attempts allowed.
+    
+- `passwordReuseCount` (number): The number of previous passwords that cannot be reused.
+    
+- `minLowerCaseLength` (number): The minimum number of lowercase characters required in the password.
+    
+- `minSpecialCharacters` (number): The minimum number of special characters required in the password.
+    
+- `minNumbers` (number): The minimum number of numeric characters required in the password.
+    
+- `minPasswordDuration` (string): The minimum duration before the password can be changed again.","15","Update Password Policy - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:31 UTC 2026","broken","Sat Jan 24 16:06:31 UTC 2026","","Auth","",""
+"","12","Customer: Pending - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:40 UTC 2026","broken","Sat Jan 24 16:06:40 UTC 2026","Retail Customer","Customer Management","",""
+"","12","Reject Request- Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles Transaction Limits","User Management","",""
+"","11","Pending by ID - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Corporate Customer","Customer Management","",""
+"","211","All Permissions - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:38 UTC 2026","passed","Sat Jan 24 16:06:39 UTC 2026","Roles and permissions > Permissions > Permissions","User Management","",""
+"","12","Password Reset","Core_Banking_QA","Sat Jan 24 16:06:32 UTC 2026","broken","Sat Jan 24 16:06:32 UTC 2026","","Auth","",""
+"","12","Approved by Id","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","1521","Approve Request","Core_Banking_QA","Sat Jan 24 16:06:52 UTC 2026","passed","Sat Jan 24 16:06:53 UTC 2026","Products","Loan","",""
+"","12","Activate User - Already Active","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","11","Get Batch Users","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Bulk","User Management","",""
+"","11","Delete Role","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","450","Pending by ID- Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:48 UTC 2026","passed","Sat Jan 24 16:06:49 UTC 2026","Products","Loan","",""
+"","11","Delete User by ID - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","12","User Details","Core_Banking_QA","Sat Jan 24 16:06:32 UTC 2026","broken","Sat Jan 24 16:06:32 UTC 2026","","Auth","",""
+"#### Description:
+
+This API allows you to configure and enforce password policies for user accounts. The password policy parameters include settings for minimum and maximum password lengths, allowed failed login attempts, password reuse, and specific character requirements such as lowercase letters, special characters, and numbers. This ensures stronger password security for user accounts.
+
+#### Usage:
+
+Use this API to set the password requirements that users must adhere to when creating or updating their passwords. This policy helps to maintain a secure environment by enforcing password complexity and expiration rules.
+
+#### Request Body Parameters:
+
+1. **`minimumLength`** (Integer):  
+    Specifies the minimum required length for user passwords.  
+    **Example**: `8` – Password must be at least 8 characters long.
+    
+2. **`maximumLength`** (Integer):  
+    Specifies the maximum allowable length for user passwords.  
+    **Example**: `16` – Password can be a maximum of 16 characters long.
+    
+3. **`maxFailedLoginAttempts`** (Integer):  
+    The maximum number of failed login attempts allowed before the account is locked or other security measures are triggered.  
+    **Example**: `3` – The user account will be locked after 3 failed login attempts.
+    
+4. **`passwordReuseCount`** (Integer):  
+    Defines how many previous passwords a user must cycle through before reusing the same password.  
+    **Example**: `1` – Users cannot reuse their last password.
+    
+5. **`minLowerCaseLength`** (Integer):  
+    The minimum number of lowercase letters required in the password.  
+    **Example**: `1` – Password must contain at least one lowercase letter.
+    
+6. **`minSpecialCharacters`** (Integer):  
+    The minimum number of special characters (such as `@`, `#`, `$`) required in the password.  
+    **Example**: `1` – Password must contain at least one special character.
+    
+7. **`minNumbers`** (Integer):  
+    The minimum number of numeric digits required in the password.  
+    **Example**: `1` – Password must contain at least one numeric digit.
+    
+8. **`minPasswordDuration`** (Datetime in ISO 8601 format):  
+    Specifies the date until which the password is valid. After this date, the user will be prompted to update their password.  
+    **Example**: `""2025-01-07T15:43:47.550000Z""` – The password will expire on January 7, 2025.","16","Create Password Policy - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:31 UTC 2026","broken","Sat Jan 24 16:06:31 UTC 2026","","Auth","",""
+"","210","Reject Request","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","passed","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > User Permission","User Management","",""
+"","11","Grant Permission - Invalid Permission ID","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > User Permission","User Management","",""
+"","12","Approved","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","11","Approve Request Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","Transaction Limits > User Transaction Limit","User Management","",""
+"","12","Process Employees in a Batch - Duplicate","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","Employees > Batches","User Management","",""
+"","12","Reject Request - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Transaction Limits > Limits","User Management","",""
+"","219","Get Batches","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","passed","Sat Jan 24 16:06:33 UTC 2026","Employees > Batches","User Management","",""
+"","12","Reject Request","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Transaction Limits > Limits","User Management","",""
+"","11","Role Transaction Limits: Pending","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles Transaction Limits","User Management","",""
+"","11","Get User- Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","12","Approved by ID: User Transaction Limits - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","Transaction Limits > User Transaction Limit","User Management","",""
+"","11","Bulk Upload","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Bulk","User Management","",""
+"","12","Approve Request - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > User Permission","User Management","",""
+"","11","Customer Stats - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:40 UTC 2026","broken","Sat Jan 24 16:06:40 UTC 2026","Retail Customer","Customer Management","",""
+"","12","Role Transaction Limit by ID - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles Transaction Limits","User Management","",""
+"","12","Finalize Reset Password","Core_Banking_QA","Sat Jan 24 16:06:32 UTC 2026","broken","Sat Jan 24 16:06:32 UTC 2026","","Auth","",""
+"","11","Pending: Transaction Limits - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Transaction Limits > Limits","User Management","",""
+"","12","Reject Request Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","11","Grant Permission - Invalid UserID","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > User Permission","User Management","",""
+"","12","Pending: User Transaction Limits","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Transaction Limits > User Transaction Limit","User Management","",""
+"","12","Approved by ID: Transaction Limits - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Transaction Limits > Limits","User Management","",""
+"","12","Reject Request - Unauthroized","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","Transaction Limits > User Transaction Limit","User Management","",""
+"","11","Approved: Transaction Limits","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Transaction Limits > Limits","User Management","",""
+"","13","Setup 2FA - Invalid TwoFactorType","Core_Banking_QA","Sat Jan 24 16:06:32 UTC 2026","broken","Sat Jan 24 16:06:32 UTC 2026","","Auth","",""
+"","9","Pending Requests: Till - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","User Management > Tills","User Management","",""
+"","12","Approved - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Corporate Customer","Customer Management","",""
+"","11","Activate User","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","11","Approve Request","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","12","Nudge Approver - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","10","Create Transaction Limits - Invalid CurrencyCode","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Transaction Limits > Limits","User Management","",""
+"","11","Customer: Pending by ID - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:40 UTC 2026","broken","Sat Jan 24 16:06:40 UTC 2026","Retail Customer","Customer Management","",""
+"","137","Permission by ID - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:39 UTC 2026","passed","Sat Jan 24 16:06:39 UTC 2026","Roles and permissions > Permissions > Permissions","User Management","",""
+"","18","Create Retail Customer - National ID/BVN exist","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"","9","Approve Request - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","Transaction Limits > User Transaction Limit","User Management","",""
+"","12","Approve Employee Request","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","17","Create Retail Customer","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"","12","Approved - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:40 UTC 2026","broken","Sat Jan 24 16:06:40 UTC 2026","Retail Customer","Customer Management","",""
+"","11","Restore Employee-Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","11","Pending by ID: Transaction Limits - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Transaction Limits > Limits","User Management","",""
+"","11","Approved by ID","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Corporate Customer","Customer Management","",""
+"","11","Create User- Invalid Email","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","11","Customer Stats","Core_Banking_QA","Sat Jan 24 16:06:40 UTC 2026","broken","Sat Jan 24 16:06:40 UTC 2026","Retail Customer","Customer Management","",""
+"","11","Cancel Request done - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","Transaction Limits > User Transaction Limit","User Management","",""
+"","10","Stats","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Corporate Customer","Customer Management","",""
+"","59","Create Retail Customer - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"","12","Approve Batch Request - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","User Management > Bulk","User Management","",""
+"#### **Description:**
+
+This endpoint makes an HTTP GET request to retrieve the password policy details based on the provided password ID.
+
+#### Request
+
+No request body parameters are required for this endpoint.
+
+- `passwordId` (path parameter): The ID of the password for which the policy details are to be retrieved.
+    
+
+#### Response
+
+The response will be in JSON format with the following structure:
+
+- `responseData` (object): Contains the password policy details including the minimum and maximum length, maximum failed login attempts, password reuse count, minimum lowercase length, minimum special characters, minimum numbers, and minimum password duration.
+    
+    - `id` (string): The ID of the password.
+        
+    - `minimumLength` (number): The minimum length required for the password.
+        
+    - `maximumLength` (number): The maximum length allowed for the password.
+        
+    - `maxFailedLoginAttempts` (number): The maximum number of failed login attempts allowed.
+        
+    - `passwordReuseCount` (number): The count of password reuse allowed.
+        
+    - `minLowerCaseLength` (number): The minimum length of lowercase characters required in the password.
+        
+    - `minSpecialCharacters` (number): The minimum number of special characters required in the password.
+        
+    - `minNumbers` (number): The minimum number of numeric characters required in the password.
+        
+    - `minPasswordDuration` (string): The minimum duration for which the password must be maintained.
+        
+- `responseCode` (string): The code indicating the status of the response.
+    
+- `responseMessage` (string): A message providing additional information about the response.","17","Password Policy by ID","Core_Banking_QA","Sat Jan 24 16:06:31 UTC 2026","broken","Sat Jan 24 16:06:31 UTC 2026","","Auth","",""
+"","12","Reject Request - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","10","Approved: User Permissions","Core_Banking_QA","Sat Jan 24 16:06:38 UTC 2026","broken","Sat Jan 24 16:06:38 UTC 2026","Roles and permissions > User Permission","User Management","",""
+"","2891","Approved - Success","Core_Banking_QA","Sat Jan 24 16:06:43 UTC 2026","passed","Sat Jan 24 16:06:46 UTC 2026","Products","Loan","",""
+"","13","Draft by ID: Corporate - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:42 UTC 2026","broken","Sat Jan 24 16:06:42 UTC 2026","Drafts","Customer Management","",""
+"","13","Reject Request","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","141","Approve/Reject Request- Invalid token","Core_Banking_QA","Sat Jan 24 16:06:54 UTC 2026","failed","Sat Jan 24 16:06:54 UTC 2026","Products","Loan","",""
+"","999","Pending by ID","Core_Banking_QA","Sat Jan 24 16:06:58 UTC 2026","passed","Sat Jan 24 16:06:59 UTC 2026","Currencies","Loan","",""
+"","12","Reject Request - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","Transaction Limits > User Transaction Limit","User Management","",""
+"","11","Nudge Approver","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","Employees > Batches","User Management","",""
+"","12","Batches by id","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Batches","User Management","",""
+"","11","Reject Customer Request","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"","12","Grant Permission - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > User Permission","User Management","",""
+"","12","Create User Transaction Limits - Invalid UserID","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","Transaction Limits > User Transaction Limit","User Management","",""
+"","11","Download 'Bulk Upload' Template - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Batches","User Management","",""
+"","11","Customer: Pending by ID - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:40 UTC 2026","broken","Sat Jan 24 16:06:40 UTC 2026","Retail Customer","Customer Management","",""
+"","12","Delete Role - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","11","Download ""Batch Upload"" Template - Wrong Format","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Bulk","User Management","",""
+"","11","Revoke Role - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles Transaction Limits","User Management","",""
+"","13","Bulk Upload - Empty Name","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Batches","User Management","",""
+"","371","Approve/Reject Request- Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:53 UTC 2026","failed","Sat Jan 24 16:06:54 UTC 2026","Products","Loan","",""
+"","12","Bulk Upload - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Bulk","User Management","",""
+"","11","Update User - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","11","Get User","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","12","Change User Password","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > User Admin","User Management","",""
+"","13","Create Retail Customer Draft - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:42 UTC 2026","broken","Sat Jan 24 16:06:42 UTC 2026","Drafts","Customer Management","",""
+"","2083","Approve Request","Core_Banking_QA","Sat Jan 24 16:07:02 UTC 2026","passed","Sat Jan 24 16:07:04 UTC 2026","Currencies","Loan","",""
+"","12","Create Employee- EmployeeID/Email","Core_Banking_QA","Sat Jan 24 16:06:32 UTC 2026","broken","Sat Jan 24 16:06:32 UTC 2026","Employees > Single","User Management","",""
+"","138","Product Pending- Invalid token","Core_Banking_QA","Sat Jan 24 16:06:48 UTC 2026","failed","Sat Jan 24 16:06:48 UTC 2026","Products","Loan","",""
+"","11","Approved","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Corporate Customer","Customer Management","",""
+"#### Login Request
+
+This endpoint is used to authenticate a user by sending a POST request to the specified URL.
+
+#### Request Body
+
+- `requestParam` (string): The encrypted data for user authentication.
+    
+
+#### Response Body
+
+- `responseParam` (string): The response parameter indicating the result of the authentication process.
+    
+
+**Example** **Response**:
+
+``` json
+{
+    ""responseData"": {
+        ""responseParam"": ""YooS79Tiwc8ixSGBQFweTn5S5sj2tDF9dAT+VDZbb6SaR8mGgiEejLQLzGX5U9OayqDxwXoD+3QKPS0TxEoKClCZtBziun9WJzLvAZ93EelNs1EqzTvpt9DXol4Z7wSAKO2FaDuch0Rwck9oiJ4Y7XOyw0/k3uAGm7jBB/6zNcGgilchCxqJlmVZAhEbxW23vuuJDZT866tpPt460UCBfCVtc7yPdli7FN3C85jhFdOM/DwuJlEdh6KWJCXHwVdz0sAvxsb9IrUOTCihUZ0sJAtdpvFPwBoZSPBz0h5ySZ8ZID61gzfRKwvblqX9I4zuMrXUSiEkbVpkLwUPlpOTvWph9LeK30fuFvp3Wu9erRN29CAUkcAtp6DpnBQZ1YS4UrmlVzHkwoVQTYznYN7fzPQxwIr0SKvBs/uaxuMB56OaU6LKJG9Huj3uDV48PYosifJX/LZGMP3yiEvcuLCCMChd+G5U65MDOUajsXTUouODN5AkyOiUbynkWxj3RfG5if3ne0cE8gRdrHIlW4p4PrbIUH5AXL+4cyZqiV0DdDJRNDA7tR0AtSN603pKcmSCm4wXvUj6dUhWfujDfrl2QfRVrnkRXd4T7HWwJmDznMiopxexwujC8Px0dIxVQT2GD2om1uZ5vVWeDgKHJyscVBCpWFTH2Pfq/i9rwfxr4X8YWJGCMNDwd8wVhmQlLFqKKepbsDGiaZXWBlcNiJPHUM6j49zfvXI2c3OtzZalzBDERjeEjo5hJH9/Ped0C8FI48VROtVYJ7wIjlQEU3i7mhuz0GL/NCiF3XO1zJEy1oSPSaijdPDzuasGJQmgWTlR42mia/a6u0j/G2OpKoiK6TPJCFob90srYgfYJpm0AN8QSxzeUqHZdaN3HKWRiEPh+wpT+QM1xoCq4I5mdcubpvTuY3ZFVe50NIwx/elvPDZ9+z2R4fEijoAVasUhbCSMABQTN4hjurRmmwkXx7NKrg8V+bg7kXa/48U+xWytX5ksBA5rNbnO0dQvjbSn3UlCmX5TRFVwxEsZctuUnO/zgEJix3E4ooEDsoMHIG2bLj0KAH1asajLuwrOH6hvjjYNb/EkQd5fKRWa/bcYl/bLyRQQPqaBzc/TTZjIpW+DJefOdaVdT9kGG4mgabLEwAhr0SULwLyc3gOYkFmih/u2PhPG5j42yta2B3re4lltiE+zwqMc7OgI8RUDHaV4FPGQWPSz0K6SXErkNeduOJ9ecPdPwzyMGckt/mHNC5maUE2/y8CbZGWtMaYGs+PGGNokR0kVeVWks5F5NxgSL4F/l/1Ds9QyE49WbUoGnZ8ALlENx49J8RyjQ1Ojxv5ZUlLHgwwmUjxqSspJVjBQSzLdYjcYWKfbxSV1d3RYcecPmwosh4N50JfqeuSV/p/PzzA/0GK5cKN9A0TyNnopDAun2A7wtFEyRbZEav2S9xnOltSM5MfuXXwHY5lmsfGX9Y6GnKU4QiKsWEgs1o1pJdzi9oYm0t4xn69wLO3grnl/TdriuiFDFEVNm5kvrZrlw4UEBBfNE2tAJ4WlWqFycQUyDtiF1jaSl8+YZjJKXMRtJayV/W7Vc4EhPlhZfQxKfcQIahpcI00sDvxhKhld8CA61cM+oOzAvTDNGyDUWm4oG+POhDIt7poQ2DO4kTWJXgxK1QxyHI5QRzfU5jHloFRgP7zHw3lQudMq+mWz/Wz9LlqazJ22EPw+TP/eqEPG/LHYmkB6eeTQC4CF7ZoNanMoVD0G3j/MX0XtWmw+5X5HKhAqxch8H5mIX+yhExeHGaSdLwK7RzzWfuxC8UAwMNZMQTY0FYWTJ28sXj2UzqWvhEh9jJGYCNdwS8pIrkPSTosT4KyXZMG5dEe3OVVPBKR0XD9nCFI8wIf5LzcrzcFRexAC7BB3TUoZbJOUVT8EdvTe40EU7NSEbx03Yi6ZcopFJd7lu1bjHyM+f6q16QQs73VR9G+P3tlQ1u+YFWy/tyx4h08PQpLdD2eWJSIY+dSw/4u5G4+dF9Y0c9wCM/elAZIZed7sk+9gDz6mX41gKbUNvYSdhXO+Q2rqmQ4KDqumiVyX/S4LRnQh7+AoplKXdgabzrQPIRg/SunQU1op3OELCLTbcyLiFjLEm/UTxOia9A2RfPqaSo1R46HwgGt6bnhtFC+AxUYt4aqultfujXXv1Uh4Fopj3Q2TiRKQW+OjcpgrtHoaoITIVwI9yY25D+2xXbrG3spOKQ9TO+9d2W6GuPQUvKuRy78aUc9MRNGyYsITvX9v3QX5hQ5yk3GU5prGerIgfIx8Rn+hr8QqTkbVYnxzGJvjTNAhrTaweTnLP2vb7ySsRqCX6uIZjtQ/OyhFIzzon4sihv3gHR3FUIFPbrOrR3mbpoGgKMlAnvgZjBDKowuy9kmAxHEHJZzq84gIroFqLzyRLIC4Hui8BbGaorDP0Wwi3wkdkqpS1Qz2RBKsYYjQ1Pk0KYYJ5Hfij48emsP3r/uKxcFjcg26kbGZa8n776m83A2MvEHpax4N3QeZEzfYGJdgLpv9gTZYHl9/Lbgr3NLXzGem0aLukATj4vEdaWK8vIJPXeGQlFcvQYzW34ayKDi9ley5W7xC95Y=""
+    },
+    ""responseCode"": ""000"",
+    ""responseMessage"": ""Successful""
+}
+
+ ```","16","Aes Encrypt","Core_Banking_QA","Sat Jan 24 16:06:32 UTC 2026","broken","Sat Jan 24 16:06:32 UTC 2026","","Auth","",""
+"","9","Process Employees done","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","11","Restore User by Id - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > User Admin","User Management","",""
+"","12","Create Role Limit - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles Transaction Limits","User Management","",""
+"","21","Update Picture - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"","12","Approve Customer","Core_Banking_QA","Sat Jan 24 16:06:42 UTC 2026","broken","Sat Jan 24 16:06:42 UTC 2026","Corporate Customer","Customer Management","",""
+"#### **Description:**
+
+This endpoint makes an HTTP GET request to retrieve the password policy details based on the provided password ID.
+
+#### Request
+
+No request body parameters are required for this endpoint.
+
+- `passwordId` (path parameter): The ID of the password for which the policy details are to be retrieved.
+    
+
+#### Response
+
+The response will be in JSON format with the following structure:
+
+- `responseData` (object): Contains the password policy details including the minimum and maximum length, maximum failed login attempts, password reuse count, minimum lowercase length, minimum special characters, minimum numbers, and minimum password duration.
+    
+    - `id` (string): The ID of the password.
+        
+    - `minimumLength` (number): The minimum length required for the password.
+        
+    - `maximumLength` (number): The maximum length allowed for the password.
+        
+    - `maxFailedLoginAttempts` (number): The maximum number of failed login attempts allowed.
+        
+    - `passwordReuseCount` (number): The count of password reuse allowed.
+        
+    - `minLowerCaseLength` (number): The minimum length of lowercase characters required in the password.
+        
+    - `minSpecialCharacters` (number): The minimum number of special characters required in the password.
+        
+    - `minNumbers` (number): The minimum number of numeric characters required in the password.
+        
+    - `minPasswordDuration` (string): The minimum duration for which the password must be maintained.
+        
+- `responseCode` (string): The code indicating the status of the response.
+    
+- `responseMessage` (string): A message providing additional information about the response.","14","Password Policy by ID - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:31 UTC 2026","broken","Sat Jan 24 16:06:31 UTC 2026","","Auth","",""
+"","27","User Details in a Batch","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","User Management > Bulk","User Management","",""
+"","11","Cancel Batch Request","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Batches","User Management","",""
+"","137","Update Role - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","passed","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","12","Reject Customer - Invalid","Core_Banking_QA","Sat Jan 24 16:06:42 UTC 2026","broken","Sat Jan 24 16:06:42 UTC 2026","Corporate Customer","Customer Management","",""
+"","10","Pending by ID - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Corporate Customer","Customer Management","",""
+"","11","Update Customer - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:42 UTC 2026","broken","Sat Jan 24 16:06:42 UTC 2026","Corporate Customer","Customer Management","",""
+"","11","Approved by ID: User Permission","Core_Banking_QA","Sat Jan 24 16:06:38 UTC 2026","broken","Sat Jan 24 16:06:38 UTC 2026","Roles and permissions > User Permission","User Management","",""
+"","10","Download ""Batch Upload"" Template -  Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Bulk","User Management","",""
+"","12","Create Transaction Limits","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Transaction Limits > Limits","User Management","",""
+"","12","Approved by ID: User Transaction Limits - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","Transaction Limits > User Transaction Limit","User Management","",""
+"","11","Approve Request - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > User Permission","User Management","",""
+"","13","Create Employee","Core_Banking_QA","Sat Jan 24 16:06:32 UTC 2026","broken","Sat Jan 24 16:06:32 UTC 2026","Employees > Single","User Management","",""
+"","23","Roles: Pending - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","11","User Details in a Batch - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","User Management > Bulk","User Management","",""
+"","12","Cancel Request -Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"#### DESCRIPTION:
+
+This endpoint allows you to update the password policy by sending a PUT request to the specified URL. The request should include the minimum and maximum length of the password, maximum failed login attempts, password reuse count, minimum lowercase length, minimum special characters, minimum numbers, and the minimum password duration.
+
+#### **USAGE:**
+
+Use this endpoint to update the password policy with the desired parameters such as minimum and maximum length, failed login attempts, password reuse count, and other password policy constraints.
+
+#### **Request Body Key Terms & Definitions**
+
+- `minimumLength` (number): The minimum length required for the password.
+    
+- `maximumLength` (number): The maximum length allowed for the password.
+    
+- `maxFailedLoginAttempts` (number): The maximum number of failed login attempts allowed.
+    
+- `passwordReuseCount` (number): The number of previous passwords that cannot be reused.
+    
+- `minLowerCaseLength` (number): The minimum number of lowercase characters required in the password.
+    
+- `minSpecialCharacters` (number): The minimum number of special characters required in the password.
+    
+- `minNumbers` (number): The minimum number of numeric characters required in the password.
+    
+- `minPasswordDuration` (string): The minimum duration before the password can be changed again.","16","Update Password Policy - Required Fields","Core_Banking_QA","Sat Jan 24 16:06:31 UTC 2026","broken","Sat Jan 24 16:06:31 UTC 2026","","Auth","",""
+"","157","Approved - No Auth","Core_Banking_QA","Sat Jan 24 16:06:46 UTC 2026","failed","Sat Jan 24 16:06:46 UTC 2026","Products","Loan","",""
+"","12","Restore Employee- Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","407","Get Batch User by ID","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","passed","Sat Jan 24 16:06:35 UTC 2026","User Management > Bulk","User Management","",""
+"#### **Description:**
+
+This endpoint makes an HTTP GET request to retrieve the password policy details based on the provided password ID.
+
+#### Request
+
+No request body parameters are required for this endpoint.
+
+- `passwordId` (path parameter): The ID of the password for which the policy details are to be retrieved.
+    
+
+#### Response
+
+The response will be in JSON format with the following structure:
+
+- `responseData` (object): Contains the password policy details including the minimum and maximum length, maximum failed login attempts, password reuse count, minimum lowercase length, minimum special characters, minimum numbers, and minimum password duration.
+    
+    - `id` (string): The ID of the password.
+        
+    - `minimumLength` (number): The minimum length required for the password.
+        
+    - `maximumLength` (number): The maximum length allowed for the password.
+        
+    - `maxFailedLoginAttempts` (number): The maximum number of failed login attempts allowed.
+        
+    - `passwordReuseCount` (number): The count of password reuse allowed.
+        
+    - `minLowerCaseLength` (number): The minimum length of lowercase characters required in the password.
+        
+    - `minSpecialCharacters` (number): The minimum number of special characters required in the password.
+        
+    - `minNumbers` (number): The minimum number of numeric characters required in the password.
+        
+    - `minPasswordDuration` (string): The minimum duration for which the password must be maintained.
+        
+- `responseCode` (string): The code indicating the status of the response.
+    
+- `responseMessage` (string): A message providing additional information about the response.
+    
+
+#### Example
+
+``` json
+{
+    ""responseData"": {
+        ""id"": """",
+        ""minimumLength"": 0,
+        ""maximumLength"": 0,
+        ""maxFailedLoginAttempts"": 0,
+        ""passwordReuseCount"": 0,
+        ""minLowerCaseLength"": 0,
+        ""minSpecialCharacters"": 0,
+        ""minNumbers"": 0,
+        ""minPasswordDuration"": """"
+    },
+    ""responseCode"": """",
+    ""responseMessage"": """"
+}
+
+ ```","21","Password Policy","Core_Banking_QA","Sat Jan 24 16:06:31 UTC 2026","broken","Sat Jan 24 16:06:31 UTC 2026","","Auth","",""
+"","11","Restore User by Id","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > User Admin","User Management","",""
+"","11","Disable User","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > User Admin","User Management","",""
+"","14","Update Password","Core_Banking_QA","Sat Jan 24 16:06:32 UTC 2026","broken","Sat Jan 24 16:06:32 UTC 2026","","Auth","",""
+"","9","Role Trnx Limit: Pending by ID done","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles Transaction Limits","User Management","",""
+"","12","Approve Request- Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","11","Pending Users - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","212","Update Role - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","passed","Sat Jan 24 16:06:36 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","11","Create User- Already Exist","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","12","Restore Role","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","16","Validate 2FA Token","Core_Banking_QA","Sat Jan 24 16:06:32 UTC 2026","broken","Sat Jan 24 16:06:32 UTC 2026","","Auth","",""
+"","15","Pending Employees","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","11","Update Customer","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"#### Login Request
+
+This endpoint is used to authenticate a user by sending a POST request to the specified URL.
+
+#### Request Body
+
+- `requestParam` (string): The encrypted data for user authentication.
+    
+
+#### Response Body
+
+- `responseParam` (string): The response parameter indicating the result of the authentication process.
+    
+
+**Example** **Response**:
+
+``` json
+{
+    ""responseData"": {
+        ""responseParam"": ""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""
+    },
+    ""responseCode"": ""000"",
+    ""responseMessage"": ""Successful""
+}
+
+ ```","17","Refresh Token","Core_Banking_QA","Sat Jan 24 16:06:32 UTC 2026","broken","Sat Jan 24 16:06:32 UTC 2026","","Auth","",""
+"","11","Create Role","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","11","Approve Request: Tlll","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","User Management > Tills","User Management","",""
+"","209","Customer Segment Done","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","passed","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"","11","Activate User - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","11","Restore Employee - Already Active","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","9","Cancel Permission Request done","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > User Permission","User Management","",""
+"","210","Approved: User Permissions - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:38 UTC 2026","passed","Sat Jan 24 16:06:38 UTC 2026","Roles and permissions > User Permission","User Management","",""
+"","2529","Reject Request","Core_Banking_QA","Sat Jan 24 16:06:49 UTC 2026","passed","Sat Jan 24 16:06:52 UTC 2026","Products","Loan","",""
+"#### **Description:**
+
+This endpoint makes an HTTP GET request to retrieve the password policy details based on the provided password ID.
+
+#### Request
+
+No request body parameters are required for this endpoint.
+
+- `passwordId` (path parameter): The ID of the password for which the policy details are to be retrieved.
+    
+
+#### Response
+
+The response will be in JSON format with the following structure:
+
+- `responseData` (object): Contains the password policy details including the minimum and maximum length, maximum failed login attempts, password reuse count, minimum lowercase length, minimum special characters, minimum numbers, and minimum password duration.
+    
+    - `id` (string): The ID of the password.
+        
+    - `minimumLength` (number): The minimum length required for the password.
+        
+    - `maximumLength` (number): The maximum length allowed for the password.
+        
+    - `maxFailedLoginAttempts` (number): The maximum number of failed login attempts allowed.
+        
+    - `passwordReuseCount` (number): The count of password reuse allowed.
+        
+    - `minLowerCaseLength` (number): The minimum length of lowercase characters required in the password.
+        
+    - `minSpecialCharacters` (number): The minimum number of special characters required in the password.
+        
+    - `minNumbers` (number): The minimum number of numeric characters required in the password.
+        
+    - `minPasswordDuration` (string): The minimum duration for which the password must be maintained.
+        
+- `responseCode` (string): The code indicating the status of the response.
+    
+- `responseMessage` (string): A message providing additional information about the response.","15","Password Policy by ID - Invalid ID - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:31 UTC 2026","broken","Sat Jan 24 16:06:31 UTC 2026","","Auth","",""
+"","12","Approved by Id- Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","13","Download 'Bulk Upload' Template","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Batches","User Management","",""
+"","12","Cancel Request- Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","11","Employment Types","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","Employees > Batches","User Management","",""
+"","472","Draft by ID: Corporate","Core_Banking_QA","Sat Jan 24 16:06:42 UTC 2026","passed","Sat Jan 24 16:06:42 UTC 2026","Drafts","Customer Management","",""
+"","11","Pending Users","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","3450","Reject Request","Core_Banking_QA","Sat Jan 24 16:06:59 UTC 2026","passed","Sat Jan 24 16:07:02 UTC 2026","Currencies","Loan","",""
+"","11","Roles: Pending by ID","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","13","Reject Employee Request - Already-Modifies","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","213","Reject Request - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","failed","Sat Jan 24 16:06:38 UTC 2026","Roles and permissions > User Permission","User Management","",""
+"","18","Pending Employees- Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","11","Reject Employee Request","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","10","Summary Counter Employee","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Batches","User Management","",""
+"","211","Pending: User Permissions","Core_Banking_QA","Sat Jan 24 16:06:38 UTC 2026","passed","Sat Jan 24 16:06:38 UTC 2026","Roles and permissions > User Permission","User Management","",""
+"","13","Create User","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","11","Employment Types-Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","Employees > Batches","User Management","",""
+"","12","Create User Transaction Limits - TransactionLimitIds","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","Transaction Limits > User Transaction Limit","User Management","",""
+"","1989","Currencies: Pending","Core_Banking_QA","Sat Jan 24 16:06:56 UTC 2026","passed","Sat Jan 24 16:06:58 UTC 2026","Currencies","Loan","",""
+"","561","Approved by Id","Core_Banking_QA","Sat Jan 24 16:06:40 UTC 2026","passed","Sat Jan 24 16:06:40 UTC 2026","Retail Customer","Customer Management","",""
+"","1039","Create Product - success","Core_Banking_QA","Sat Jan 24 16:06:42 UTC 2026","passed","Sat Jan 24 16:06:43 UTC 2026","Products","Loan","",""
+"","11","Approved by ID: User Permission - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:38 UTC 2026","broken","Sat Jan 24 16:06:38 UTC 2026","Roles and permissions > User Permission","User Management","",""
+"","11","Create User Transaction Limits - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","Transaction Limits > User Transaction Limit","User Management","",""
+"","10","Reject User in a Batch done","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","User Management > Bulk","User Management","",""
+"","11","Restore Role - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","11","Stats - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Corporate Customer","Customer Management","",""
+"","684","Pending by ID","Core_Banking_QA","Sat Jan 24 16:06:48 UTC 2026","passed","Sat Jan 24 16:06:48 UTC 2026","Products","Loan","",""
+"","11","Approve Request","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > User Permission","User Management","",""
+"","1975","Cancel Request","Core_Banking_QA","Sat Jan 24 16:07:04 UTC 2026","failed","Sat Jan 24 16:07:06 UTC 2026","Currencies","Loan","",""
+"","10","Pending by ID","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Corporate Customer","Customer Management","",""
+"","11","Roles by ID","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","11","Approve Request: Tlll - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","User Management > Tills","User Management","",""
+"","11","Approve Customer Request - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"","12","Nudge Approver - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","12","Delete Employee -Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","9","Get Batch User by ID - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","User Management > Bulk","User Management","",""
+"","11","Nudge Approver- Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","Employees > Batches","User Management","",""
+"#### Login Request
+
+This endpoint is used to authenticate a user by sending a POST request to the specified URL.
+
+#### Request Body
+
+- `requestParam` (string): The encrypted data for user authentication.
+    
+
+#### Response Body
+
+- `responseParam` (string): The response parameter indicating the result of the authentication process.
+    
+
+**Example** **Response**:
+
+``` json
+{
+    ""responseData"": {
+        ""responseParam"": ""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""
+    },
+    ""responseCode"": ""000"",
+    ""responseMessage"": ""Successful""
+}
+
+ ```","14","User Login2","Core_Banking_QA","Sat Jan 24 16:06:31 UTC 2026","broken","Sat Jan 24 16:06:31 UTC 2026","","Auth","",""
+"","11","Approve Customer Request - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"","17","Setup 2FA - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:32 UTC 2026","broken","Sat Jan 24 16:06:32 UTC 2026","","Auth","",""
+"","12","Cancel Request","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","11","Update Employee - Pending","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","11","Role Transaction Limit by ID","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles Transaction Limits","User Management","",""
+"","12","Approve Customer - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:42 UTC 2026","broken","Sat Jan 24 16:06:42 UTC 2026","Corporate Customer","Customer Management","",""
+"","11","Restore User by Id - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > User Admin","User Management","",""
+"","13","Assign Permission to Role","Core_Banking_QA","Sat Jan 24 16:06:38 UTC 2026","broken","Sat Jan 24 16:06:38 UTC 2026","Roles and permissions > Permissions > Permissions","User Management","",""
+"","14","Batches by id - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Batches","User Management","",""
+"","8","Validate BVN -Invalid BVN","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"","11","Customer: Pending by ID","Core_Banking_QA","Sat Jan 24 16:06:40 UTC 2026","broken","Sat Jan 24 16:06:40 UTC 2026","Retail Customer","Customer Management","",""
+"","11","Reject Customer Request - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"","23","Update Picture","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"","209","Permission by ID - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:39 UTC 2026","passed","Sat Jan 24 16:06:39 UTC 2026","Roles and permissions > Permissions > Permissions","User Management","",""
+"","210","Permission by ID","Core_Banking_QA","Sat Jan 24 16:06:39 UTC 2026","passed","Sat Jan 24 16:06:39 UTC 2026","Roles and permissions > Permissions > Permissions","User Management","",""
+"","11","Status - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"","138","Pending: User Permissions - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:38 UTC 2026","passed","Sat Jan 24 16:06:38 UTC 2026","Roles and permissions > User Permission","User Management","",""
+"","13","Get Batch Users- Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Bulk","User Management","",""
+"","11","Pending by ID: User Permission","Core_Banking_QA","Sat Jan 24 16:06:38 UTC 2026","broken","Sat Jan 24 16:06:38 UTC 2026","Roles and permissions > User Permission","User Management","",""
+"","17","Setup 2FA","Core_Banking_QA","Sat Jan 24 16:06:32 UTC 2026","broken","Sat Jan 24 16:06:32 UTC 2026","","Auth","",""
+"","210","Delete Permission","Core_Banking_QA","Sat Jan 24 16:06:39 UTC 2026","failed","Sat Jan 24 16:06:40 UTC 2026","Roles and permissions > Permissions > Permissions","User Management","",""
+"","142","Approved by Id - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:40 UTC 2026","passed","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"","11","Cancel Batch Request - unauthorized","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Batches","User Management","",""
+"","11","Approve Request - Invalid","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles Transaction Limits","User Management","",""
+"","11","All Roles","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Roles and permissions > Roles","User Management","",""
+"#### Login Request
+
+This endpoint is used to authenticate a user by sending a POST request to the specified URL.
+
+#### Request Body
+
+- `requestParam` (string): The encrypted data for user authentication.
+    
+
+#### Response Body
+
+- `responseParam` (string): The response parameter indicating the result of the authentication process.
+    
+
+**Example** **Response**:
+
+``` json
+{
+    ""responseData"": {
+        ""responseParam"": ""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""
+    },
+    ""responseCode"": ""000"",
+    ""responseMessage"": ""Successful""
+}
+
+ ```","626","Aes Decrypt","Core_Banking_QA","Sat Jan 24 16:06:32 UTC 2026","passed","Sat Jan 24 16:06:32 UTC 2026","","Auth","",""
+"","12","Lock User Account - Past Date","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","333","Create Fees done","Core_Banking_QA","Sat Jan 24 16:07:06 UTC 2026","passed","Sat Jan 24 16:07:07 UTC 2026","Fees","Loan","",""
+"","13","Create Employee- Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:32 UTC 2026","broken","Sat Jan 24 16:06:32 UTC 2026","Employees > Single","User Management","",""
+"","12","Cancel Request","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","Transaction Limits > User Transaction Limit","User Management","",""
+"","12","Reject Customer - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:42 UTC 2026","broken","Sat Jan 24 16:06:42 UTC 2026","Corporate Customer","Customer Management","",""
+"","11","All Roles - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","22","Create Retail Customer CAA - Done","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"","11","Approve Request","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Transaction Limits > Limits","User Management","",""
+"","11","Approve Request - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Transaction Limits > Limits","User Management","",""
+"","12","Password Reset - Not Found","Core_Banking_QA","Sat Jan 24 16:06:32 UTC 2026","broken","Sat Jan 24 16:06:32 UTC 2026","","Auth","",""
+"","210","Approved by Id - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:40 UTC 2026","passed","Sat Jan 24 16:06:40 UTC 2026","Retail Customer","Customer Management","",""
+"","11","Pending by ID: Transaction Limits","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Transaction Limits > Limits","User Management","",""
+"","215","Update Role","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","passed","Sat Jan 24 16:06:36 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","11","Grant Permission","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > User Permission","User Management","",""
+"","21","Update Picture - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"","11","Customer: Pending","Core_Banking_QA","Sat Jan 24 16:06:40 UTC 2026","broken","Sat Jan 24 16:06:40 UTC 2026","Retail Customer","Customer Management","",""
+"","11","Pending: User Transaction Limits - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Transaction Limits > User Transaction Limit","User Management","",""
+"","11","Get Users - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","12","Approved","Core_Banking_QA","Sat Jan 24 16:06:40 UTC 2026","broken","Sat Jan 24 16:06:40 UTC 2026","Retail Customer","Customer Management","",""
+"","12","Create Role - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","12","Change User First Login Password","Core_Banking_QA","Sat Jan 24 16:06:32 UTC 2026","broken","Sat Jan 24 16:06:32 UTC 2026","","Auth","",""
+"","13","Get Users","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","12","Pending by ID: User Permission - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:38 UTC 2026","broken","Sat Jan 24 16:06:38 UTC 2026","Roles and permissions > User Permission","User Management","",""
+"","12","Status - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"","210","Approved by ID - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","passed","Sat Jan 24 16:06:42 UTC 2026","Corporate Customer","Customer Management","",""
+"","11","Pending","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Corporate Customer","Customer Management","",""
+"","12","Delete Employee - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","12","Reject Request - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Transaction Limits > Limits","User Management","",""
+"","18","User Logout","Core_Banking_QA","Sat Jan 24 16:06:32 UTC 2026","broken","Sat Jan 24 16:06:32 UTC 2026","","Auth","",""
+"","11","Approve Request","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","10","Pending by ID: User Permission - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:38 UTC 2026","broken","Sat Jan 24 16:06:38 UTC 2026","Roles and permissions > User Permission","User Management","",""
+"","137","Pending by ID","Core_Banking_QA","Sat Jan 24 16:51:14 UTC 2026","passed","Sat Jan 24 16:51:14 UTC 2026","Fees","Loan","",""
+"","11","Get User - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","14","Bulk Upload- Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Batches","User Management","",""
+"","12","Reject Customer","Core_Banking_QA","Sat Jan 24 16:06:42 UTC 2026","broken","Sat Jan 24 16:06:42 UTC 2026","Corporate Customer","Customer Management","",""
+"","11","Nudge Approver","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","11","Pending by ID: User Transaction Limits","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","Transaction Limits > User Transaction Limit","User Management","",""
+"","9","Pending Requests: Till","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","User Management > Tills","User Management","",""
+"","13","Approve Employee Request - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","12","Lock User Account - Invalid Email","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","226","Get Batch User by ID - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","passed","Sat Jan 24 16:06:35 UTC 2026","User Management > Bulk","User Management","",""
+"","10","Deactivate User","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","12","Approve Request - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Transaction Limits > Limits","User Management","",""
+"","12","Create Role Limit - Invalid","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles Transaction Limits","User Management","",""
+"","12","Reject Request","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","Transaction Limits > User Transaction Limit","User Management","",""
+"#### Login Request
+
+This endpoint is used to authenticate a user by sending a POST request to the specified URL.
+
+#### Request Body
+
+- `requestParam` (string): The encrypted data for user authentication.
+    
+
+#### Response Body
+
+- `responseParam` (string): The response parameter indicating the result of the authentication process.
+    
+
+**Example** **Response**:
+
+``` json
+{
+    ""responseData"": {
+        ""responseParam"": ""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""
+    },
+    ""responseCode"": ""000"",
+    ""responseMessage"": ""Successful""
+}
+
+ ```","17","User Login2 - Invalid ResponseParam","Core_Banking_QA","Sat Jan 24 16:06:31 UTC 2026","broken","Sat Jan 24 16:06:32 UTC 2026","","Auth","",""
+"","10","Delete User by ID - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","12","Create Permission","Core_Banking_QA","Sat Jan 24 16:06:38 UTC 2026","broken","Sat Jan 24 16:06:38 UTC 2026","Roles and permissions > Permissions > Permissions","User Management","",""
+"","210","Update Permission","Core_Banking_QA","Sat Jan 24 16:06:39 UTC 2026","failed","Sat Jan 24 16:06:39 UTC 2026","Roles and permissions > Permissions > Permissions","User Management","",""
+"","11","Approved by ID - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Corporate Customer","Customer Management","",""
+"","13","Create User-Invalid employeeId","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","13","Revoke Role","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles Transaction Limits","User Management","",""
+"","1147","Create Currency done - success","Core_Banking_QA","Sat Jan 24 16:06:55 UTC 2026","passed","Sat Jan 24 16:06:56 UTC 2026","Currencies","Loan","",""
+"","12","Approve Request - Not Found","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","Transaction Limits > User Transaction Limit","User Management","",""
+"","12","Cancel Request: Individual. employee Batch- Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","Employees > Batches","User Management","",""
+"","11","Delete Role - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","10","Approved by ID: User Transaction Limits","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","Transaction Limits > User Transaction Limit","User Management","",""
+"","11","Role Transaction Limits: Pending - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles Transaction Limits","User Management","",""
+"","12","Pending by Id- invalid ID","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","11","Cancel Request: Individual employee Batch","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Batches","User Management","",""
+"","11","Role Transaction Limits","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles Transaction Limits","User Management","",""
+"","11","Bulk Upload - Invalid File","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Bulk","User Management","",""
+"","12","Cancel Request: Individual. employee Batch-Invalid","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","Employees > Batches","User Management","",""
+"","11","Reject Request- Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles Transaction Limits","User Management","",""
+"","12","Create Transaction Limits - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Transaction Limits > Limits","User Management","",""
+"","10","Password Reset Request","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > User Admin","User Management","",""
+"","12","Create Role Limit","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles Transaction Limits","User Management","",""
+"","11","Nudge Approver-invalid","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","Employees > Batches","User Management","",""
+"","9","Validate BVN","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"","12","User Stats","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","13","Lock User Account","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","11","Revoke Role - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles Transaction Limits","User Management","",""
+"","11","Update Limit","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Transaction Limits > Limits","User Management","",""
+"","11","Download ""Batch Upload"" Template","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Bulk","User Management","",""
+"","11","Roles: Pending by ID -Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","12","Reject Customer Request - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"","16","Roles: Pending","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","9","Update Customer - National ID/BVN Exist","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"","12","Create Role - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","11","Update Employee - ID Not Valid","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","12","Batches by id - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Batches","User Management","",""
+"","9","Approved: User Transaction Limits","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","Transaction Limits > User Transaction Limit","User Management","",""
+"","11","All Permissions","Core_Banking_QA","Sat Jan 24 16:06:38 UTC 2026","broken","Sat Jan 24 16:06:38 UTC 2026","Roles and permissions > Permissions > Permissions","User Management","",""
+"","11","Update Customer","Core_Banking_QA","Sat Jan 24 16:06:42 UTC 2026","broken","Sat Jan 24 16:06:42 UTC 2026","Corporate Customer","Customer Management","",""
+"","10","All Drafts","Core_Banking_QA","Sat Jan 24 16:06:42 UTC 2026","broken","Sat Jan 24 16:06:42 UTC 2026","Drafts","Customer Management","",""
+"","12","Approve Request - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles Transaction Limits","User Management","",""
+"","12","Update Customer - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"","11","Approve Batch Request","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","User Management > Bulk","User Management","",""
+"","13","Change Password","Core_Banking_QA","Sat Jan 24 16:06:32 UTC 2026","broken","Sat Jan 24 16:06:32 UTC 2026","","Auth","",""
+"","11","Roles by ID - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","12","Reject Request - Not Found","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","Transaction Limits > User Transaction Limit","User Management","",""
+"","11","Approve Request","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles Transaction Limits","User Management","",""
+"","13","Update User: Till - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","User Management > Tills","User Management","",""
+"","14","Approve Customer - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:42 UTC 2026","broken","Sat Jan 24 16:06:42 UTC 2026","Corporate Customer","Customer Management","",""
+"","16","Create Corporate Customer Done","Core_Banking_QA","Sat Jan 24 16:06:42 UTC 2026","broken","Sat Jan 24 16:06:42 UTC 2026","Corporate Customer","Customer Management","",""
+"","138","Reject Request - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","passed","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > User Permission","User Management","",""
+"","13","Summary Counter Employee- Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Batches","User Management","",""
+"#### DESCRIPTION:
+
+This endpoint allows you to update the password policy by sending a PUT request to the specified URL. The request should include the minimum and maximum length of the password, maximum failed login attempts, password reuse count, minimum lowercase length, minimum special characters, minimum numbers, and the minimum password duration.
+
+#### **USAGE:**
+
+Use this endpoint to update the password policy with the desired parameters such as minimum and maximum length, failed login attempts, password reuse count, and other password policy constraints.
+
+#### **Request Body Key Terms & Definitions**
+
+- `minimumLength` (number): The minimum length required for the password.
+    
+- `maximumLength` (number): The maximum length allowed for the password.
+    
+- `maxFailedLoginAttempts` (number): The maximum number of failed login attempts allowed.
+    
+- `passwordReuseCount` (number): The number of previous passwords that cannot be reused.
+    
+- `minLowerCaseLength` (number): The minimum number of lowercase characters required in the password.
+    
+- `minSpecialCharacters` (number): The minimum number of special characters required in the password.
+    
+- `minNumbers` (number): The minimum number of numeric characters required in the password.
+    
+- `minPasswordDuration` (string): The minimum duration before the password can be changed again.","16","Update Password Policy","Core_Banking_QA","Sat Jan 24 16:06:31 UTC 2026","broken","Sat Jan 24 16:06:31 UTC 2026","","Auth","",""
+"","11","Cancel Request","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","11","Approved: Transaction Limits - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Transaction Limits > Limits","User Management","",""
+"#### Description:
+
+This API allows you to configure and enforce password policies for user accounts. The password policy parameters include settings for minimum and maximum password lengths, allowed failed login attempts, password reuse, and specific character requirements such as lowercase letters, special characters, and numbers. This ensures stronger password security for user accounts.
+
+#### Usage:
+
+Use this API to set the password requirements that users must adhere to when creating or updating their passwords. This policy helps to maintain a secure environment by enforcing password complexity and expiration rules.
+
+#### Request Body Parameters:
+
+1. **`minimumLength`** (Integer):  
+    Specifies the minimum required length for user passwords.  
+    **Example**: `8` – Password must be at least 8 characters long.
+    
+2. **`maximumLength`** (Integer):  
+    Specifies the maximum allowable length for user passwords.  
+    **Example**: `16` – Password can be a maximum of 16 characters long.
+    
+3. **`maxFailedLoginAttempts`** (Integer):  
+    The maximum number of failed login attempts allowed before the account is locked or other security measures are triggered.  
+    **Example**: `3` – The user account will be locked after 3 failed login attempts.
+    
+4. **`passwordReuseCount`** (Integer):  
+    Defines how many previous passwords a user must cycle through before reusing the same password.  
+    **Example**: `1` – Users cannot reuse their last password.
+    
+5. **`minLowerCaseLength`** (Integer):  
+    The minimum number of lowercase letters required in the password.  
+    **Example**: `1` – Password must contain at least one lowercase letter.
+    
+6. **`minSpecialCharacters`** (Integer):  
+    The minimum number of special characters (such as `@`, `#`, `$`) required in the password.  
+    **Example**: `1` – Password must contain at least one special character.
+    
+7. **`minNumbers`** (Integer):  
+    The minimum number of numeric digits required in the password.  
+    **Example**: `1` – Password must contain at least one numeric digit.
+    
+8. **`minPasswordDuration`** (Datetime in ISO 8601 format):  
+    Specifies the date until which the password is valid. After this date, the user will be prompted to update their password.  
+    **Example**: `""2025-01-07T15:43:47.550000Z""` – The password will expire on January 7, 2025.","18","Create Password Policy - Already Created","Core_Banking_QA","Sat Jan 24 16:06:31 UTC 2026","broken","Sat Jan 24 16:06:31 UTC 2026","","Auth","",""
+"","8","Approved by ID: Transaction Limits","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Transaction Limits > Limits","User Management","",""
+"","850","Cancel Request done","Core_Banking_QA","Sat Jan 24 16:06:54 UTC 2026","failed","Sat Jan 24 16:06:55 UTC 2026","Products","Loan","",""
+"","9","Process Employees in a Batch","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","Employees > Batches","User Management","",""
+"","11","Reject Request","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles Transaction Limits","User Management","",""
+"","8","Approved: User Transaction Limits - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","Transaction Limits > User Transaction Limit","User Management","",""
+"","12","Update Employee","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","12","Update Employee- Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","11","Delete Employee","Core_Banking_QA","Sat Jan 24 16:06:33 UTC 2026","broken","Sat Jan 24 16:06:33 UTC 2026","Employees > Single","User Management","",""
+"","12","Approved by ID: User Permission - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:38 UTC 2026","broken","Sat Jan 24 16:06:38 UTC 2026","Roles and permissions > User Permission","User Management","",""
+"","139","Product Pending- Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:47 UTC 2026","failed","Sat Jan 24 16:06:48 UTC 2026","Products","Loan","",""
+"","11","User Roles","Core_Banking_QA","Sat Jan 24 16:06:37 UTC 2026","broken","Sat Jan 24 16:06:37 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","13","Update User Details","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > User Admin","User Management","",""
+"","11","Reject Request - Invalid ID","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""
+"","12","Approve Request - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Roles and permissions > Roles","User Management","",""
+"","12","Pending - Unathourized","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Corporate Customer","Customer Management","",""
+"","11","Update User: Till","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","User Management > Tills","User Management","",""
+"","14","Pending: Transaction Limits","Core_Banking_QA","Sat Jan 24 16:06:36 UTC 2026","broken","Sat Jan 24 16:06:36 UTC 2026","Transaction Limits > Limits","User Management","",""
+"","11","Approve Customer Request","Core_Banking_QA","Sat Jan 24 16:06:41 UTC 2026","broken","Sat Jan 24 16:06:41 UTC 2026","Retail Customer","Customer Management","",""
+"","12","Create User Transaction Limits","Core_Banking_QA","Sat Jan 24 16:06:35 UTC 2026","broken","Sat Jan 24 16:06:35 UTC 2026","Transaction Limits > User Transaction Limit","User Management","",""
+"","10","Cancel Request - Unauthorized","Core_Banking_QA","Sat Jan 24 16:06:34 UTC 2026","broken","Sat Jan 24 16:06:34 UTC 2026","User Management > Single","User Management","",""

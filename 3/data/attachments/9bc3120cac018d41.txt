@@ -1,0 +1,34 @@
+{
+  "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "employeeId": "Boo2734",
+  "firstName": "Truth",
+  "lastName": "Blaze",
+  "organizationName": "Me and You Org",
+  "state": "Lagos",
+  "email": "merlinarthur@mailinator.com",
+  "phoneNumber": "+234909999444",
+  "middleName": "string",
+  "deleted": false,
+  "deletedAt": "",
+  "organizationId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "imageUrl": "string",
+  "extraUserDetailsDto": {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "salutation": "Mr",
+    "gender": "Male",
+    "identificationType": "Passport",
+    "identificationNumber": "B0834344",
+    "clientType": "",
+    "streetAddress": "12, Opa street",
+    "city": "Ikeja",
+    "country": "Nigeria",
+    "isVerified": true,
+    "updatedAt": "2024-10-24T14:00:31.498Z",
+    "dateOfBirth": "1990-10-25T14:03:31.498Z"
+  },
+  "roles": [
+    "Admin"
+  ],
+  "updatedAt": "2024-10-25T14:03:31.498Z",
+  "updatedBy": "morgan@assurdly.com"
+}

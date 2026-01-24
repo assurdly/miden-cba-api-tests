@@ -1,0 +1,8 @@
+{
+  "name": "Product Manager",
+  "description": "Analyze customer needs.",
+  "isActive": true,
+  "permissionIds": [
+    "4e88fc3a-f931-41ed-ba7e-62b3443edad0"
+  ]
+}

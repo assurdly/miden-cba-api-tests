@@ -1,0 +1,1 @@
+{"data":null,"isSuccess":false,"error":{"responseData":null,"responseCode":"404","responseMessage":"Currency request with Id 8830d3e2-7695-4798-a21f-89f0b8519fa7 does not exist"}}

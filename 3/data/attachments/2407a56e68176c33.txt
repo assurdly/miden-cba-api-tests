@@ -1,0 +1,15 @@
+{
+  "feeRequests": [
+    {
+      "id": "8074bd89-2751-429a-8cad-a3762b39d440",
+      "type": "Late Fee",
+      "event": "Late Payment",
+      "applicationMethod": "Demand",
+      "amortizationMethod": "Straight Line",
+      "debitAccountPlaceholder": "Penal Interest Account",
+      "creditAccountPlaceholder": "Normal Interest Account",
+      "isDeleted": false,
+      "isDefaultFee": true
+    }
+  ]
+}

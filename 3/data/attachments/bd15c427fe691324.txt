@@ -1,0 +1,7 @@
+{
+  "dataToken": "edb9e929f34b4449b1460fd340632cf3",
+  "id": "8830d3e2-7695-4798-a21f-89f0b8519fa7",
+  "isApproved": true,
+  "requiresAction": false,
+  "message": "Currency Update"
+}

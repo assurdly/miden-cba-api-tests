@@ -1,0 +1,6 @@
+{
+  "token": "328287",
+  "email": "morgan+5@assurdly.com",
+  "password": "Password123!!",
+  "confirmPassword": "Password123!!"
+}
