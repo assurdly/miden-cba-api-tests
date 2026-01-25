@@ -1,0 +1,19 @@
+{
+    "group": "FeesandCharges",
+    "primaryCharge": "StampDutyCharge",
+    "narration": "hhhhhh",
+    "calculationCurrency": "NGN",
+    "collectionCurrency": "NGN",
+    "amountType": "PercentageCharge",
+    "fixedAmount": "0",
+    "percentage": "0",
+    "minimumAmount": "0",
+    "maximumAmount": "0",
+    "trigger": "StampDutyCharge",
+    "feePlaceholder": "PH900110",
+    "transactionDirection": "Debit",
+    "refundAllowed": false,
+    "partialRecovery": false,
+    "rateCode": "",
+    "approvalNotes": ""
+}

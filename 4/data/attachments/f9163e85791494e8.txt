@@ -1,0 +1,7 @@
+{
+  "dataToken": "253d77024a584745bf7735b4e6a85793",
+  "id": "3e435c5e-f50d-42a2-ae39-b2b21544e5b5",
+  "isApproved": true,
+  "requiresAction": false,
+  "message": "Approve fee update"
+}

@@ -1,0 +1,13 @@
+{
+  "accountNumber": "7610002208",
+  "accountMasterId": "146ae60d-8d77-459c-8c60-96e8ba0c07fe",
+  "currency": "NGN",
+  "startDate": "2025-05-19",
+  "endDate": "2025-07-14",
+  "interestFrequency": 0, 
+  "interestFrequencyHolidayState": 1,
+  "InterestType" : 1, 
+  "interestIndicator" : 2, 
+  "isRecalculation": false,
+  "isInterestPayment": false
+}

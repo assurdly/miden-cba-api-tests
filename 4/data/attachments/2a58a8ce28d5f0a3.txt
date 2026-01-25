@@ -1,0 +1,49 @@
+{
+  "productGeneralDetail": {
+    "name": "Adult's Savings Account",
+    "shortName": "ASA",
+    "type": "SBA",
+    "isStaffProduct": false,
+    "effectiveDate": "2025-02-24T09:06:54.500Z",
+    "expiryDate": "2027-02-24T09:06:54.500Z",
+    "minimumAgeRequirement": 1,
+    "maximumAgeRequirement": 18,
+    "prefix": "string",
+    "allowTopUp": true,
+    "payInterestUpfront": true,
+    "code": "string"
+  },
+  "exception": {
+    "accountInDebitBalance": "string",
+    "accountInCreditBalance": "string",
+    "accountBalanceBelowMininum": "string",
+    "ageOutOfAllowedRange": "string",
+    "sanctionExceedsLimit": "string",
+    "sanctionLimitExpired": "string",
+    "insufficientAvailableBalance": "string",
+    "accountNameChanged": "string",
+    "customerAccountFrozen": "string",
+    "backDatedTransaction": "string",
+    "valueDatedTransaction": "string",
+    "renewalPeriodExceeded": "string",
+    "numberofWithdrawalsExceeded": "string",
+    "cashLimitExceededDebit": "string",
+    "cashLimitExceededCredit": "string",
+    "transferLimitExceededDebit": "string",
+    "transferLimitExceededCredit": "string"
+  },
+  "productTransaction": {
+    "profitLossAccountCurrency": "NGN",
+    "interestPayable": true,
+    "interestPaybleAccountPlaceholder": "Suspense Account",
+    "interestReceivable": true,
+    "interestReceivableAccountPlaceholder": "string",
+    "penalInterestAccountPlaceholder": "Penalty_Interest",
+    "advanceInterestAccountPlaceholder": "string",
+    "interestExpenseAccount": "string",
+    "interestIncomeAccount": "string",
+    "upfrontInterestPlaceHolder": "string",
+    "interestCalculationFrequencyCredit": "string",
+    "interestCalculationFrequencyDebit": "string"
+  }
+}

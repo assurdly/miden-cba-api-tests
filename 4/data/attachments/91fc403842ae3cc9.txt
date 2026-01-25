@@ -1,0 +1,1 @@
+﻿Account Number,Account Name,Customer Id,Product Code,Currency,Account Open Date,Branch Id,NIN,BVN,Clear Balance,Email,Address,Date Of Birth,Phone Number,Customer Segment,RM Code,RM Name,Opened By

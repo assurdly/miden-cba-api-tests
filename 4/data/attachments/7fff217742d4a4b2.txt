@@ -1,0 +1,1 @@
+{"data":{"responseData":{"bodDate":"2026-03-02T00:00:00","branchId":"ALB01","nextEodRunDate":null},"responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

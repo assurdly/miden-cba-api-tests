@@ -1,0 +1,9 @@
+{
+    "Date": "Sun, 25 Jan 2026 20:49:35 GMT",
+    "Content-Type": "text/csv",
+    "Content-Length": "150",
+    "Connection": "keep-alive",
+    "Server": "Kestrel",
+    "ExecutionTime": "231 ms",
+    "Content-Disposition": "attachment; filename=DailyTransactions_20260125_2049.csv; filename*=UTF-8''DailyTransactions_20260125_2049.csv"
+}

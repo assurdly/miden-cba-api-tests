@@ -1,0 +1,1 @@
+{"data":{"responseData":"User with Id 70748d17-8c21-4a13-97fe-b3d4681ca566 deleted successfully","responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

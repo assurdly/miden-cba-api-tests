@@ -1,0 +1,11 @@
+{
+  "employeeID": "F001",
+  "firstName": "Treeses",
+  "lastName": "Rootes",
+  "type": "Permanent",
+  "departmentIdentifier": "DPT101",
+  "email": "treesrootes@mailinator.com",
+  "phoneNumber": "+2347066244792",
+  "branchId": "ALB01",
+  "isUploaded": false 
+}

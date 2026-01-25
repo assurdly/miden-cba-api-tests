@@ -1,0 +1,6 @@
+{
+  "username": "gerald@miden.co",
+  "newPassword": "Password123!",
+  "confirmPassword": "Password123!",
+  "updatedBy": "morgan@assurdly.com"
+}

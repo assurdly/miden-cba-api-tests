@@ -1,0 +1,1 @@
+﻿GL Code,Account Number,Customer Name,Transaction Amount,Transaction Currency,Account Open Date,Transaction Date,Product Code,Part Transaction Type

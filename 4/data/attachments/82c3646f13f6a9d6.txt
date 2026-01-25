@@ -1,0 +1,1 @@
+{"data":{"responseData":"Eod initiated successfully.","responseCode":"Eod initiated successfully.","responseMessage":"Successful"},"isSuccess":true,"error":null}

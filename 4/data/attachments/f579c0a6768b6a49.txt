@@ -1,0 +1,6 @@
+{
+  "name": "Test Interest Account",
+  "description": "Penal Interest Account",
+  "cashPlaceholder": "Yes",
+  "placeholderType": "string"
+}

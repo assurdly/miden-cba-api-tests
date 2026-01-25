@@ -1,0 +1,8 @@
+{
+  "name": "Allen 1 Set",
+  "code": "B-Allen Set 5",
+  "branchCodes": [
+    "TBA-LA-IKEJA-007",
+    "TBA-LA-IKEJA-008"
+  ]
+}

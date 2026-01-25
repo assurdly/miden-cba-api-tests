@@ -1,0 +1,9 @@
+{
+  "frequency": "Daily",
+  "automated": true,
+  "recipients": [
+    "Test"
+  ],
+  "description": "Test",
+  "isActive": true
+}

@@ -1,0 +1,7 @@
+{
+  "dataToken": "26698e2656444ad69f5cad7eafbd36b6",
+  "id": "e017180b-0aec-4b49-a86f-cfa54329b5ae",
+  "isApproved": true,
+  "requiresAction": false,
+  "message": "Approve Charges"
+}

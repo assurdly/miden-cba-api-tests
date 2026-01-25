@@ -1,0 +1,8 @@
+{
+  "dataToken": "b6c2501907f74b2fa002bea08f0f436e",
+  "id": "56ee35b2-6112-4704-8100-3cf534a8aac1",
+  "isApproved": false,
+  "requiresAction": true,
+  "message": "string",
+  "isRemoveLien": true
+}

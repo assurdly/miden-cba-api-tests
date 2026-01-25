@@ -1,0 +1,1 @@
+{"data":{"responseData":"InternalAccount with AccountName :: Account Revenue updated successfully","responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

@@ -1,0 +1,18 @@
+{
+  "customerAccountNumber": "string",
+  "tellerTillAccountNumber": "string",
+  "transactionAmount": 0,
+  "transactionCurrency": "string",
+  "narration": "string",
+  "transactionReference": "string",
+  "transactionFee": 0,
+  "feeAccountNumber": "string",
+  "consolidateDebit": true,
+  "instrumentNumber": "string",
+  "feeDebitSource": "string",
+  "instrumentType": "string",
+  "transactionType": "string",
+  "transactionSubType": "string",
+  "applicationId": "string",
+  "valueDate": "2025-06-17T18:22:36.698Z"
+}

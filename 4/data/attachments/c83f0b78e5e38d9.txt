@@ -1,0 +1,8 @@
+{
+  "accountNumber": "0010000104",
+  "department": "Admin",
+  "code": "CustomerInitiatedFreeze", 
+  "remark": "testing testing",
+  "type": "Credit",
+  "expiryDate": "2025-04-21T16:57:02.945Z"
+}

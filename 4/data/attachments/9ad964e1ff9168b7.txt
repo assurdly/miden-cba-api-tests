@@ -1,0 +1,1 @@
+{"data":null,"isSuccess":false,"error":{"responseData":null,"responseCode":"400","responseMessage":"Retail Customer with Bvn/Nin is pending Approval. Kindly Contact support."}}

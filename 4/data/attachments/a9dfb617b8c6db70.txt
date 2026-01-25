@@ -1,0 +1,6 @@
+{
+  "name": "TEERUS1000",
+  "description": "Placeholder Update",
+  "cashPlaceholder": "Yes",
+  "placeholderType": "string"
+}

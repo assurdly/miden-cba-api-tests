@@ -1,0 +1,1 @@
+{"errors":{"pageNumber":["The value '0.1' is not valid for PageNumber."]},"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-7497671613486fab2f5d37b40ba00d4c-7b148321f9f13cb8-01"}

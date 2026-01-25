@@ -1,0 +1,7 @@
+{
+  "username": "morgan@assurdly.com",
+  "token": "812220",
+  "twoFactorType": "GoogleAuth",
+  "validationToken": "Login9ad0bba454b9474ab3dbccc13a1fc185_2Factor"
+}
+

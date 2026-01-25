@@ -1,0 +1,8 @@
+[
+    {
+        "currencyCode": "BRL",
+        "denominationValue": null,
+        "type": "Note",
+        "strapCount": 5
+    }
+]

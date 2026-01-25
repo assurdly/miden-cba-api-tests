@@ -1,0 +1,230 @@
+{
+  "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "bvn": "string",
+  "nin": "string",
+  "title": "string",
+  "firstName": "string",
+  "middleName": "string",
+  "lastName": "string",
+  "shortName": "string",
+  "gender": "string",
+  "dateOfBirth": "2025-01-08T00:28:36.272Z",
+  "localGoverment": "string",
+  "minor": "string",
+  "stateOfOrigin": "string",
+  "countryOfOrigin": "string",
+  "maritalStatus": "string",
+  "numberOfDependents": 0,
+  "motherMaidenName": "string",
+  "isCustomerStaff": "string",
+  "isCustomerSuspended": "string",
+  "isCustomerBlacklisted": "string",
+  "customerSegment": "string",
+  "currencies": [
+    "string"
+  ],
+  "customerSubSegment": "string",
+  "branchIdentifier": "string",
+  "relationshipStartDate": "2025-01-08T00:28:36.272Z",
+  "guardian": {
+    "guardianType": "string",
+    "customerID": "string",
+    "name": "string",
+    "phoneNumber": "string",
+    "emailID": "string",
+    "dateOfBirth": "string",
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+  },
+  "amlDetail": {
+    "pep": "string",
+    "pepRelationship": "string",
+    "riskCategory": "string",
+    "eddPerformed": "string",
+    "decision": "string",
+    "reviewedDate": "2025-01-08T00:28:36.272Z",
+    "nextReviewDate": "2025-01-08T00:28:36.272Z",
+    "reviewedBy": "string",
+    "remarks": "string",
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+  },
+  "nextOfKin": {
+    "title": "string",
+    "firstName": "string",
+    "lastName": "string",
+    "phone": "string",
+    "email": "string",
+    "address": "string",
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+  },
+  "phoneNumberDetails": [
+    {
+      "type": "string",
+      "countryDialCode": "string",
+      "phoneNumber": "string",
+      "preferredPhone": true,
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
+  ],
+  "relations": [
+    {
+      "relationshipType": "string",
+      "relationCustomerId": "string",
+      "firstName": "string",
+      "lastName": "string",
+      "phoneNumber": "string",
+      "email": "string",
+      "addressLine1": "string",
+      "addressLine2": "string",
+      "country": "string",
+      "city": "string",
+      "postalCode": "string",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
+  ],
+  "emailDetails": [
+    {
+      "typeOfEmail": "string",
+      "emailID": "string",
+      "preferredEmail": true,
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
+  ],
+  "addressDetails": [
+    {
+      "type": "string",
+      "line1": "string",
+      "line2": "string",
+      "postalCode": "string",
+      "city": "string",
+      "state": "string",
+      "country": "string",
+      "residingSince": "string",
+      "preferredAddress": true,
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
+  ],
+  "documentDetails": [
+    {
+      "code": "string",
+      "documentID": "string",
+      "issuingAuthority": "string",
+      "placeOfIssue": "string",
+      "cityOfIssue": "string",
+      "stateOfIssue": "string",
+      "countryOfIssue": "string",
+      "issueDate": "2025-01-08T00:28:36.272Z",
+      "expiryDate": "2025-01-08T00:28:36.272Z",
+      "documentCategory": "string",
+      "documentUpload": {
+        "upload": "string",
+        "fileName": "string"
+      },
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
+  ],
+  "liabilityDetails": [
+    {
+      "currency": "string",
+      "type": "string",
+      "amount": 0,
+      "yearsOfExpectedClosure": "2025-01-08T00:28:36.272Z",
+      "remarks": "string",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
+  ],
+  "relationshipManagers": [
+    {
+      "managerID": "string",
+      "firstName": "string",
+      "lastName": "string",
+      "emailAddress": "string",
+      "phoneNumber": "string",
+      "department": "string",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
+  ],
+  "creditRatingDetails": [
+    {
+      "ratingModel": "string",
+      "creditRating": "string",
+      "riskCategory": "string",
+      "remarks": "string",
+      "dateOfRating": "2025-01-08T00:28:36.272Z",
+      "dateOfRatingValidity": "2025-01-08T00:28:36.272Z",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
+  ],
+  "foreignTaxReportings": [
+    {
+      "countryOfReporting": "string",
+      "taxIdentificationNumber": "string",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
+  ],
+  "educationalDetails": [
+    {
+      "qualification": "string",
+      "course": "string",
+      "institute": "string",
+      "university": "string",
+      "courseStatus": "string",
+      "courseStartDate": "2025-01-08T00:28:36.272Z",
+      "courseEndDate": "2025-01-08T00:28:36.272Z",
+      "classObtained": "string",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
+  ],
+  "employmentDetails": [
+    {
+      "nature": "string",
+      "current": "string",
+      "type": "string",
+      "occupation": "string",
+      "industry": "string",
+      "employerType": "string",
+      "designation": "string",
+      "startDate": "2025-01-08T00:28:36.272Z",
+      "endDate": "2025-01-08T00:28:36.272Z",
+      "businessName": "string",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
+  ],
+  "expenseDetails": [
+    {
+      "currency": "string",
+      "expenseType": "string",
+      "amount": 0,
+      "frequency": "string",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
+  ],
+  "incomeDetails": [
+    {
+      "currency": "string",
+      "incomeType": "string",
+      "amount": "string",
+      "frequency": "string",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
+  ],
+  "citizenAndTaxDetail": {
+    "countryOfBirth": "string",
+    "countryOfPrimaryCitizenShip": "string",
+    "immigrationStatus": "string",
+    "taxResidentStatus": "string",
+    "taxIdentificationType": "string",
+    "taxIdentificationNumber": "string",
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+  },
+  "assetDetails": [
+    {
+      "currency": "string",
+      "assetType": "string",
+      "yearOfPurchase": "string",
+      "purchasePrice": "string",
+      "marketValue": "string",
+      "remarks": "string",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
+  ]
+}

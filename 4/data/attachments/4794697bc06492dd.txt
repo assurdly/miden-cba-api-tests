@@ -1,0 +1,7 @@
+{
+  "dataToken": "89c81cf3b248449fb2f791829866cb93",
+  "id": "6f0b5f73-1de1-41ca-ab35-f87cd6bcaa97",
+  "isApproved": true,
+  "requiresAction": false,
+  "message": "Approve Document Update"
+}

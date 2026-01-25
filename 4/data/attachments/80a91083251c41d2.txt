@@ -1,0 +1,1 @@
+{"data":{"responseData":{"id":"f7ca8c02-da96-43b0-88c1-6f8e2608201b","type":"WithdrawalSlip","productType":"CAA","productName":null,"usage":"Debit","creationTime":"2026-01-19T23:26:21.162911","creatorEmail":null,"concurrencyStamp":"ce6041e5c7c341edb1797dfbce044da1","actionType":null,"status":null},"responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

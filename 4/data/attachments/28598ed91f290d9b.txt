@@ -1,0 +1,1 @@
+{"data":{"responseData":"Account Lien with request id 56ee35b2-6112-4704-8100-3cf534a8aac1 successfully rejected","responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

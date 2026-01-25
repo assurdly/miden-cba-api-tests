@@ -1,0 +1,1 @@
+{"data":{"responseData":{"accountNumber":"2210115965","lienAmount":200.0,"lienReference":"088dc494-28c3-4a26-b1d1-17995f34f550","lienBlockId":null,"validUntil":"2026-01-31T00:00:00Z","lienRemarks":"Loan","transactionId":null},"responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

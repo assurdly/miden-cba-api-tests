@@ -1,0 +1,6 @@
+{
+  "principal": 5000,
+  "rate": 5,
+  "timeInDays": 5,
+  "baseDaysInYear": 56
+}

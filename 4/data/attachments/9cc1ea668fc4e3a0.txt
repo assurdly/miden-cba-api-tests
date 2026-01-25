@@ -1,0 +1,7 @@
+{
+  "dataToken": "{{customer_acc_document_pending_dataToken_last}}",
+  "id": "{{customer_acc_document_pending_id_last}}",
+  "isApproved": true,
+  "requiresAction": false,
+  "message": "Approve request"
+}

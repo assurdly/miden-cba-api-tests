@@ -1,0 +1,20 @@
+
+
+{
+    "id": "28856ec2-21e7-41c5-9d47-0db6a89ada50",
+    "accountTier": true,
+    "country": "NGA",
+    "currency": "NGN",
+    "customerProductType": "sba",
+    "tier1DailyDebitLimit": 30000000,
+    "tier1CreditLimit": 300000000,
+    "tier1CumulativeAccountBalance": 300000000,
+    "tier1AccountGLSubHead": "TB001",
+    "tier1RelationshipManager": "TY020",
+    "tier2CreditLimit": 500000000,
+    "allowExcessLimit": false,
+    "allowAutoUpdateAndFreeze": false,
+    "tier2CumulativeAccountBalance": 500000000,
+    "tier2DailyDebitLimit": 500000000,
+    "tier3DailyDebitLimit": 500000000
+}

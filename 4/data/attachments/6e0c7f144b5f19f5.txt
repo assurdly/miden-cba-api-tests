@@ -1,0 +1,19 @@
+[
+    {
+    "id": "8ac2ce13-3e45-4c99-bd5f-f6f06ffddd6b",
+    "charge": "vat",
+    "feePlaceHolder": null,
+    "chargeSetupId": "da84388c-fe9e-4d06-9f63-f59d90d9175f",
+    "narration": "vat",
+    "amountType": "PercentageCharge",
+    "fixedAmount": "5",
+    "percentage": "0",
+    "minimumAmount": "0",
+    "maximumAmount": "0",
+    "dateCreated": "2025-12-22T12:55:27.06344",
+    "createdBy": "abiodun@miden.co",
+    "verifiedBy": "abiodun@miden.co",
+    "isActive": false,
+    "isDeleted": false
+}
+]

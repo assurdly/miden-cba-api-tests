@@ -1,0 +1,1 @@
+{"data":{"responseData":[{"id":"eae93eca-6981-4fd0-b9b4-bc8abc4dccb7","departmentId":"DPT101","name":"Adim"},{"id":"af9968a7-9885-494a-b19d-9c9589d9fa8c","departmentId":"04","name":"Marketing"}],"responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

@@ -1,0 +1,1 @@
+{"isSuccess":false,"error":{"responseData":[{"fieldName":"EmailId","errorMessages":["Invalid email format."]}],"responseCode":"400","responseMessage":"Validation Error"},"data":null}

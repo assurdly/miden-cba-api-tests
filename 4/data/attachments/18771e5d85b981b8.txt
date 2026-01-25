@@ -1,0 +1,1 @@
+{"data":{"responseData":"InternalAccount with id 3ba86489-f701-4fbb-9609-aaed2bff7958 successfully rejected","responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

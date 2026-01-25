@@ -1,0 +1,7 @@
+{
+    "accountNumber" : "7610002208",
+    "payoffDate": "2025-07-13",
+    "earlyRepaymentFee": 5,
+    "feeIsPercentage": true,
+    "chargeAccountNumber" : "BC123ALB0102"
+}
