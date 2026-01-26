@@ -1,0 +1,1 @@
+{"data":{"responseData":{"id":"3701e060-ce75-46e0-9e82-affeb93f3ddf","customerId":"RHNWIND1","firstName":"ABIODUN","lastName":"ASIMOLOWO","email":"abiodun@miden.co","phoneNumber":"95858483838","creationTime":"2025-08-06T21:31:03.63915","concurrencyStamp":"3d5c1109b0b9485e8c5be22241522f93"},"responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

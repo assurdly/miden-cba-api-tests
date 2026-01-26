@@ -1,0 +1,7 @@
+{
+  "dataToken": "82a8a1470ca34361924955918caa8db5",
+  "id": "cc83d63a-3757-4aef-895f-5ef24641f231",
+  "isApproved": false,
+  "requiresAction": true,
+  "message": "Reject Currency Update"
+}

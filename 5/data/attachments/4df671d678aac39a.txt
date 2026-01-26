@@ -1,0 +1,15 @@
+{
+  "debitAccountNumber": "33310000733",
+  "creditAccountNumber": "7810000729",
+  "transactionAmount": 500,
+  "transactionCurrency": "NGN",
+  "narration": "My test transaction",
+  "transactionReference": "69ac809a-4aff-4c95-830f-84519d820e19",
+  "initiatingBranchId": "ALB01",
+  "transactionFee": 10,
+  "feeAccountNumber": "BC123ALB0102",
+  "authorizedBy": "system",
+  "consolidateDebit": false,
+  "valueDate": "2025-05-21",
+  "applicationId" : "Miden"
+}

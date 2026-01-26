@@ -1,0 +1,3 @@
+AccountExpiryDate,LoginTimeLow,LoginTimeHigh,DisableFromDate,DisableTillDate,MaxInactiveDays,MaxInactiveTimeMinutes,EmailId,PhoneNumber,Role,BranchId,ExcpWorkClass,AccountAccessCode,EmployeeId,UserType,PasswordExpiryInDays
+04/26/2026 05:10:44 +00:00,08:30,16:30,02/05/2026 05:10:44 +00:00,02/15/2026 05:10:44 +00:00,10,60,user1@example.com,+11234567890,Admin,BR002,Executive,ACCESS456,EMP54321,TemporaryContract,60
+01/26/2027 05:10:44 +00:00,10:00,18:00,,,30,180,user2@example.com,+19876543210,Operations,BR003,Assistant,ACCESS789,EMP67890,Permanent,180

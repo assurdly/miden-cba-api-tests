@@ -1,0 +1,15 @@
+{
+  "lienReference": "string",
+  "eventLienAmount": 0,
+  "requestedBy": "string",
+  "accountNumber": "string",
+  "creditAccountNumber": "string",
+  "chargeAmount": 0,
+  "ignoreBalanceCheck": true,
+  "rate": 0,
+  "incomeAccountNumber": "string",
+  "thirdPartyTransactionReference": "string",
+  "actualDebitAmount": 0,
+  "valueDate": "2025-12-16T08:42:27.042Z",
+  "applicationId": "string"
+}

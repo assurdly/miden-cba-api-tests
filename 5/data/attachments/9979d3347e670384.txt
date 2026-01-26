@@ -1,0 +1,1 @@
+{"data":null,"isSuccess":false,"error":{"responseData":null,"responseCode":"400","responseMessage":"InternalAccount with AccountNumber :: 001NGN00139 already exist"}}

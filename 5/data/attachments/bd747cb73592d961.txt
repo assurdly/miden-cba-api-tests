@@ -1,0 +1,1 @@
+{"data":{"responseData":"1 denomination(s) added, 0 updated, 9 skipped.","responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

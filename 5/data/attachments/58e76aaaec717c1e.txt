@@ -1,0 +1,1 @@
+{"isSuccess":false,"error":{"responseData":[{"fieldName":"[0].denominationValue","errorMessages":["Error converting value {null} to type 'System.Decimal'. Path '[0].denominationValue', line 4, position 33."]}],"responseCode":"400","responseMessage":"Validation Error"},"data":null}

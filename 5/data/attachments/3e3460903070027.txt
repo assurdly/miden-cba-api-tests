@@ -1,0 +1,1 @@
+{"errors":{"id":["Error converting value \"{{customer_freeze_acc_pending_id_last}}\" to type 'System.Guid'. Path 'id', line 3, position 49."],"request":["The request field is required."]},"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-7738143a87b86e17ac9cd19cbc517e1d-c5dfebf1117105e6-01"}

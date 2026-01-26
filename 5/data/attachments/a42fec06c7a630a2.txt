@@ -1,0 +1,1 @@
+{"data":{"responseData":{"totalInterestBookings":34,"totalPending":25,"totalOverdue":0,"totalNormal":34},"responseCode":"Account interest counters retrieved successfully.","responseMessage":"Successful"},"isSuccess":true,"error":null}

@@ -1,0 +1,1 @@
+{"data":{"responseData":"Charge with Id 242fa9e1-ccc7-4b08-9fd1-fd39de0ae7b0 deleted successfully","responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

@@ -1,0 +1,6 @@
+{
+  "currencyCode": "string",
+  "denominationValue": 0,
+  "type": "None",
+  "strapCount": 0
+}

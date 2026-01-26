@@ -1,0 +1,7 @@
+{
+  "dataToken": "{{customer_freeze_acc_pending_dataToken_last}}",
+  "id": "{{customer_freeze_acc_pending_id_last}}",
+  "isApproved": true,
+  "requiresAction": false,
+  "message": "Approve"
+}

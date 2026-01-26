@@ -1,0 +1,1 @@
+{"errors":{"id":["Error converting value \"0246030-b311-443b-a7a3-83adfddcb9c6b\" to type 'System.Guid'. Path 'id', line 2, position 46."],"command":["The command field is required."]},"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-468b0cda44eca423c2570905bc43ce10-01c924871180d0a4-01"}

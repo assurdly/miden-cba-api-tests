@@ -1,0 +1,7 @@
+{
+  "dataToken": "db397ba867e0467fa7f9b4bd03edfbd2",
+  "id": "1b0bef0a-32c8-4696-85f5-df6e475c724b",
+  "isApproved": false,
+  "requiresAction": true,
+  "message": "Reject Document Update"
+}

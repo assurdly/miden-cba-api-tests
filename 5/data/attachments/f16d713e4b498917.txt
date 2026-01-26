@@ -1,0 +1,19 @@
+{
+  "filterParam": {
+    "additionalProp1": "string",
+    "additionalProp2": "string",
+    "additionalProp3": "string"
+  },
+  "sortParam": {
+    "sortColumn": "string",
+    "sortDirection": "Asc"
+  },
+  "pageNumber": 0,
+  "pageSize": 0,
+  "from": "2025-12-22T01:19:44.858Z",
+  "to": "2025-12-22T01:19:44.858Z",
+  "branchId": "string",
+  "accountNumber": "string",
+  "currency": "string",
+  "customerId": "string"
+}

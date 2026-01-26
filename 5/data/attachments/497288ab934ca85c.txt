@@ -1,0 +1,1 @@
+{"data":{"responseData":{"totalDenominations":15,"totalPendingDenominations":3,"totalApprovedDenominations":0},"responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

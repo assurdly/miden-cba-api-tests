@@ -1,0 +1,1 @@
+{"data":{"responseData":"Currency with Id cc83d63a-3757-4aef-895f-5ef24641f231 successfully cancelled.","responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

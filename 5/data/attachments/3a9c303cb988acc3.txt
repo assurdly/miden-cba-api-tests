@@ -1,0 +1,1 @@
+{"data":{"responseData":"Charge with id bb3ac9ad-3a5d-4b42-af7e-e78832d05fe7 successfully rejected","responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

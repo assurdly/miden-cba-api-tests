@@ -1,0 +1,29 @@
+{
+  "batchDetail": {
+    "productCode": "string",
+    "title": "string",
+    "firstName": "string",
+    "lastName": "string",
+    "gender": "string",
+    "occupation": "string",
+    "maritalStatus": "string",
+    "dateOfBirth": "2025-12-16T04:24:03.158Z",
+    "phoneNumber": "string",
+    "email": "string",
+    "address": "string",
+    "localGovernment": "string",
+    "state": "string",
+    "city": "string",
+    "postCode": "string",
+    "country": "string",
+    "bvn": "string",
+    "nationalId": "string",
+    "idType": "string",
+    "idNumber": "string",
+    "idExpiryDate": "2025-12-16T04:24:03.158Z",
+    "guardianFirstName": "string",
+    "guardianLastName": "string",
+    "guardianGender": "string",
+    "guardianNatureOfRelationship": "string"
+  }
+}

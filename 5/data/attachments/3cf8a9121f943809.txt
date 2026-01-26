@@ -1,0 +1,1 @@
+{"data":{"responseData":[{"accountNumber":"1210111362","currency":"NGN","cashLimitDebit":0.00,"cashLimitCredit":0.00,"transferLimitDebit":0.00,"transferLimitCredit":0.000000,"balanceLimitDebit":10000000.00,"availableBalance":0.00,"clearBalance":0.00}],"responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

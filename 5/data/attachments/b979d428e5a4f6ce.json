@@ -1,0 +1,12 @@
+{
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3YmIwNTJkMy0xNjVkLTRjYTYtOWNjMC1jNjI1MmMzOGE4MDUiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW4yQHR5cnVzLmlvIiwidXNlcm5hbWUiOiJhZG1pbjJAdHlydXMuaW8iLCJ1c2VySWQiOiI2Zjc5ODFhYi1kODY4LTRhN2YtYWE2MS01M2Q2ZDgxYzZjM2YiLCJCcmFuY2hJZCI6IiIsIkVtYWlsIjoiYWRtaW4yQHR5cnVzLmlvIiwiSXBBZGRyZXNzIjoiMTU0LjEyMC4xMTMuMTg1LCAxMC4wLjE1MS4xMTIiLCJUZW5hbnRJZCI6IjA1Y2VjMDAyLTQzZmMtNGRmNy04NDE5LWJhMTRiMDNjM2QyZCIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6InN1cGVyLWFkbWluIiwicm9sZSI6InN1cGVyLWFkbWluIiwiZXhwIjoxNzQ0MTgxNjI4LCJpc3MiOiJodHRwczovL2xvY2FsaG9zdDo1MDAxIiwiYXVkIjoiVXNlciJ9.zx0qjVM17luukDrcqpqY_3BEvAlzKBgAaGd4pa8qAtxkHcD0rfDI_UKF1D-ZAx-OwpuzhQiNvT7YDFi6pUvNxQ",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "72145789-7e92-4ee0-ad6e-8dfbb2b957f5",
+    "Host": "sandbox-corebanking-api.miden.co",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "6088"
+}

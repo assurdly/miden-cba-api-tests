@@ -1,0 +1,15 @@
+{
+  "accountMandates": [
+    {
+      "mandateSignatureUpload": "string",
+      "mandateImageUpload": "string",
+      "customerId": "string",
+      "firstName": "string",
+      "lastName": "string",
+      "signatoryType": "string",
+      "signatoryClass": "string",
+      "isDeleted": true,
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
+  ]
+}

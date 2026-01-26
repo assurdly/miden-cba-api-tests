@@ -1,0 +1,1 @@
+{"errors":{"documents[0].ReceivedDate.Date":["Received Date cannot be earlier than today."]},"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-e12e67e53a067c40f87c96d2945cd6ae-86c5639381b07b5d-01"}

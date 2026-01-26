@@ -1,0 +1,33 @@
+{
+    "productCode": "500",
+    "bio": {
+        "title": "Mrs",
+        "firstName": "David",
+        "lastName": "Smith",
+        "gender": "Female",
+        "occupation": "Programmer",
+        "maritalStatus": "Separated",
+        "dateOfBirth": "1978-10-19T00:00:00"
+    },
+    "contactInformation": {
+        "phoneNumber": "7034565456",
+        "email": "davsmith@gmail.com",
+        "address": "Alheri Saw Mill",
+        "localGovernment": "ABA",
+        "state": "AB",
+        "country": "NGA"
+    },
+    "kycInformation": {
+        "idType": "GovernmentIssuedID",
+        "idNumber": "56666666666666666666",
+        "expiryDate": "2026-01-31T00:00:00.000Z",
+        "bvn": "56554545454",
+        "nin": "13334188423"
+    },
+    "guardianInformation": {
+        "firstName": "",
+        "lastName": "",
+        "gender": "",
+        "natureOfRelationship": ""
+    }
+}

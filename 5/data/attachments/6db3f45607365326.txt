@@ -1,0 +1,1 @@
+{"errors":{"dataToken":["The DataToken field is required."]},"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-5dd868c6159e676c672aea23adcd7008-fd8a580729d77ebd-01"}

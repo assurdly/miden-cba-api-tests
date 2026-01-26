@@ -1,0 +1,7 @@
+{
+  "dataToken": "",
+  "id": "adcf2b94-e2f7-4fd5-89d0-956d7a7d38c6",
+  "isApproved": true,
+  "requiresAction": false,
+  "message": "Accept IA creation"
+}

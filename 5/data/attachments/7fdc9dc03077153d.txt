@@ -1,0 +1,6 @@
+{
+    "currencyCode": "PHP",
+    "denominationValue": 10,
+    "type": "Coin",
+    "strapCount": 1
+}

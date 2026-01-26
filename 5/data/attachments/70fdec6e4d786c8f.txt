@@ -1,0 +1,7 @@
+{
+  "dataToken": "0a8fb035821a4b928bcf31eb5b1d50fd",
+  "id": "95d83738-e5af-4ec2-a7c0-5de742efc957",
+  "isApproved": false,
+  "requiresAction": true,
+  "message": "Test"
+}

@@ -1,0 +1,1 @@
+﻿Ledger Code,Ledger Desc,Customer Account Name,Customer Operative Account,Deposit Account Number,Deposit Amount,Maturity Amount,Deposit Days Period,Interest Rate,Int Accrued,Currency,Ledger Balance,Account Opening Date,Maturity Date,Deposit Type,Customer ID,Branch ID

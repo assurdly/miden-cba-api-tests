@@ -1,0 +1,1 @@
+{"errors":{"id":["Error converting value \"{{product_parameter_pending_last_id}}\" to type 'System.Guid'. Path 'id', line 3, position 47."],"command":["The command field is required."]},"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-8a95e61efb79d4723cfb3fe6d67864f2-6b29de004dfa5fd6-01"}

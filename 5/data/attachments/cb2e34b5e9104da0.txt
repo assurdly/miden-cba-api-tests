@@ -1,0 +1,1 @@
+{"data":{"responseData":{"total":138,"active":64,"inActive":74,"pending":3},"responseCode":"Lien statistics retrieved Successfully","responseMessage":"Successful"},"isSuccess":true,"error":null}

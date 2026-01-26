@@ -1,0 +1,1 @@
+{"data":{"responseData":"The product with code 'Ty001' was submitted for deletion approval.","responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

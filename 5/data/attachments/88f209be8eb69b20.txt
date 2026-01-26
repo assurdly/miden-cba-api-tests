@@ -1,0 +1,1 @@
+{"errors":{"id":["The value '{{customer_acc_approved_id}}' is not valid."]},"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-8daf02adb7614f97207e053273e6fa1e-1ccff9a251b6d3bf-01"}

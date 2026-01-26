@@ -1,0 +1,6 @@
+{
+  "currencyCode": "BRL",
+  "isApproved": false,
+  "requiresAction": true,
+  "message": "Nice message"
+}

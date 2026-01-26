@@ -1,0 +1,26 @@
+{
+  "name": "Kenny Banks",
+  "emailAddress": "nini@miden.com",
+  "phoneNumber": "+2347012345678",
+  "branchSet": "TBO5",
+  "branchAddress": "15a, Ajanaku Street, Opebi, Lagos, Nigeria.",
+  "isDefault": true,
+  "chequeProductSetUpDtos": [
+    {
+      "name": "Teerus Personal Loan",
+      "code": "TPL01",
+      "chequeType": "Individual Cheque",
+      "numberOfLeaves": 100,
+      "startingAuditControlNumber": "0001",
+      "id": "0000000000000"
+    },
+        {
+      "name": "Teerus Personal Loan",
+      "code": "TPL01",
+      "chequeType": "Manager Cheque",
+      "numberOfLeaves": 100,
+      "startingAuditControlNumber": "0001",
+      "id": "00000000000000"
+    }
+  ]
+}

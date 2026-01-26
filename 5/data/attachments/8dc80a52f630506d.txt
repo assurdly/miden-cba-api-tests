@@ -1,0 +1,1 @@
+{"data":{"responseData":"Account with number 0010100358 successfully rejected","responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

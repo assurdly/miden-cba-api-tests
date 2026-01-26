@@ -1,0 +1,1 @@
+{"data":{"responseData":{"id":"a06d0b76-1a20-4bd7-96e3-0e294dc58668","minimumLength":5,"maximumLength":12,"maxFailedLoginAttempts":3,"passwordReuseCount":1,"minLowerCaseLength":2,"minSpecialCharacters":2,"minNumbers":2,"minPasswordDuration":"2024-10-09T18:05:59.889"},"responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

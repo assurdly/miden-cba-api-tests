@@ -1,0 +1,7 @@
+{
+  "id": "ab5a31dc-f5c6-48fe-ac79-d8e64c00d0f0",
+  "currencyCode": "GBP",
+  "denominationValue": 200,
+  "type": "Note",
+  "strapCount": 20
+}

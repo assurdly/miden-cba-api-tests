@@ -1,0 +1,6 @@
+{
+  "currency": "NGN",
+  "transactionType": "CashWithdrawal",
+  "limitAmount": 10000,
+  "isActive": true
+}

@@ -1,0 +1,11 @@
+{
+  "productCode": "string",
+  "currency": "string",
+  "durationInMonths": 0,
+  "durationInDays": 0,
+  "endDate": "2025-12-16T04:12:21.753Z",
+  "baseDaysInYear": 0,
+  "preferentialInterestCredit": 0,
+  "depositAmount": 0,
+  "accountOpeningDate": "2025-12-16T04:12:21.753Z"
+}

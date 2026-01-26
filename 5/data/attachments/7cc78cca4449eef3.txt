@@ -1,0 +1,1 @@
+{"data":{"responseData":"Loan Product Code Ty001 creation successfully approved","responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

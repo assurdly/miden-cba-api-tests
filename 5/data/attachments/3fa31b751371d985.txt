@@ -1,0 +1,5 @@
+{
+  "currencyCode": "N",
+  "transactionType": "CashDeposite",
+  "limitAmount": 10
+}

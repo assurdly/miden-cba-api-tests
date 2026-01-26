@@ -1,0 +1,7 @@
+{
+  "dataToken": "5dbcd65b8e2a4a95a9860d686d94d201",
+  "id": "e5d60cb2-5b13-4daa-89f7-f2ced937bf63",
+  "isApproved": true,
+  "requiresAction": false,
+  "message": "Instrument Creation request"
+}
