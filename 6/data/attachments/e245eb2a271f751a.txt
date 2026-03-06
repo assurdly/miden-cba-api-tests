@@ -1,0 +1,1 @@
+{"isSuccess":false,"error":{"responseData":[{"fieldName":"userId","errorMessages":["Error converting value \"3ce2429a-eeaf-4e29-8632-566c482\" to type 'System.Guid'. Path 'userId', line 3, position 45."]}],"responseCode":"400","responseMessage":"Validation Error"},"data":null}

@@ -1,0 +1,22 @@
+{
+  "branchId": "string",
+  "jobCode": "string",
+  "jobDescription": "string",
+  "jobType": "string",
+  "function": "string",
+  "frequency": "string",
+  "jobParameters": "string",
+  "clusterName": "string",
+  "serviceName": "string",
+  "holidayExecution": "string",
+  "lastExecutionDate": "2025-12-18T03:23:00.490Z",
+  "nextExecutionDate": "2025-12-18T03:23:00.490Z",
+  "executionStopDate": "2025-12-18T03:23:00.490Z",
+  "jobPriorityNumber": 0,
+  "isBlockingJob": true,
+  "numberOfParallelJobs": 0,
+  "topicArn": "string",
+  "queueName": "string",
+  "brokerRegion": "string",
+  "jobGroup": "string"
+}

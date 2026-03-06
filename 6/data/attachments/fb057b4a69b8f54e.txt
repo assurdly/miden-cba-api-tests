@@ -1,0 +1,15 @@
+{
+  "bankName": "string",
+  "shortName": "string",
+  "bankCode": "string",
+  "isLocalBank": true,
+  "country": "string",
+  "city": "string",
+  "state": "string",
+  "timeZone": "string",
+  "addressLine1": "string",
+  "addressLine2": "string",
+  "homeCurrency": "string",
+  "swiftBic": "string",
+  "postCode": "string"
+}

@@ -1,0 +1,6 @@
+{
+    "accountNumber" : "7610002208",
+    "repaymentAmount": 270000,
+    "repaymentDate": "2025-07-12",
+    "repaymentStrategy": 1
+}

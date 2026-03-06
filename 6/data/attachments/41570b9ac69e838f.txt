@@ -1,0 +1,1 @@
+{"data":null,"isSuccess":false,"error":{"responseData":null,"responseCode":"400","responseMessage":"Eod date is not valid for the next Eod run."}}

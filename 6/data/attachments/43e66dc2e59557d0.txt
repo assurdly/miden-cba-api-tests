@@ -1,0 +1,6 @@
+{
+  "currencyCode": "string",
+  "isApproved": true,
+  "requiresAction": true,
+  "message": "string"
+}

@@ -1,0 +1,10 @@
+{
+  "minimumLength": 4,
+  "maximumLength":11,
+  "maxFailedLoginAttempts": 3,
+  "passwordReuseCount": 1,
+  "minLowerCaseLength": 1,
+  "minSpecialCharacters": 1,
+  "minNumbers": 1,
+  "minPasswordDuration": "2025-01-24T15:43:47.550000Z"
+}

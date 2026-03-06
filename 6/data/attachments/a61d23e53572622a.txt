@@ -1,0 +1,10 @@
+{
+  "employeeID": "T988LONERMrs.MKD",
+  "firstName": "Sarai",
+  "lastName": "Nicolas",
+  "type": "Permanent",
+  "departmentIdentifier": "DPT101",
+  "email": "morgan+mobileTuesday@gmail.com",
+  "phoneNumber": "+2347002444200",
+  "branchId": "ALB01"
+}

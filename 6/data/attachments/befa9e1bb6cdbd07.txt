@@ -1,0 +1,18 @@
+{
+  "documents": [
+    {
+      "id": "4eee1d81-4c9c-4257-8081-22355abbdd8c",
+      "code": "Creditbureaureport",
+      "isDeleted": true,
+      "dueDate": "2025-12-16T03:23:29.247Z",
+      "receivedDate": "2025-12-16T03:23:29.247Z",
+      "expiryDate": "2025-12-16T03:23:29.247Z",
+      "record": true,
+      "scanDetails": true,
+      "documentUpload": {
+        "upload": "string",
+        "fileName": "string"
+      }
+    }
+  ]
+}

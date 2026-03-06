@@ -1,0 +1,1 @@
+{"isSuccess":false,"error":{"responseData":[{"fieldName":"[0].id","errorMessages":["Error converting value \"2725beb0-9f80-4c09-b947-e\" to type 'System.Nullable`1[System.Guid]'. Path '[0].id', line 5, position 37."]}],"responseCode":"400","responseMessage":"Validation Error"},"data":null}

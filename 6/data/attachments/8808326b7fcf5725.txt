@@ -1,0 +1,1 @@
+{"data":{"responseData":{"id":"b651d184-5a33-4b0f-80af-0ede5e16bb32","name":"PH105","description":"Test","placeholderType":"InternalAccountPlaceholder","cashPlaceholder":"Yes","dateCreated":"2025-12-18T15:42:27.977359","createdBy":"bisoye@assurdly.com","isActive":false,"isDeleted":true},"responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

@@ -1,0 +1,6 @@
+{
+  "currencyCode": "LYD",
+  "isApproved": true,
+  "requiresAction": false,
+  "message": "string"
+}

@@ -1,0 +1,7 @@
+{
+  "dataToken": "{{currencies_pending_dataToken_last}}",
+  "id": "{{currencies_pending_id_last}}",
+  "isApproved": false,
+  "requiresAction": true,
+  "message": "Reject Currency Update"
+}

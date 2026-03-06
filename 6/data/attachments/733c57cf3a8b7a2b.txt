@@ -1,0 +1,8 @@
+[
+    {
+        "currencyCode": "",
+        "denominationValue": 10000,
+        "type": "Note",
+        "strapCount": 5
+    }
+]

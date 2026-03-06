@@ -1,0 +1,1 @@
+{"data":{"responseData":{"total":296,"active":296,"inActive":0,"pending":2},"responseCode":"General Ledger Account Statistics Retrieved Successfully","responseMessage":"Successful"},"isSuccess":true,"error":null}

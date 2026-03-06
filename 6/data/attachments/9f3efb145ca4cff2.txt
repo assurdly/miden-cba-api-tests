@@ -1,0 +1,23 @@
+{
+  "rateType": 1,
+  "baseRate": 0,
+  "margin": 0,
+  "interestBasis": 1,
+  "principal": 10000,
+  "interestRate": 15,
+  "useYearlyInterest": true,
+  "repaymentFrequency": 3,
+  "interestAccrualFrequency" : 1,
+  "tenorValue": 12,
+  "loanStartDate": "2025-06-10",
+  "firstRepaymentDate": "2025-07-10",
+  "moratorium": {
+    "moratoriumMonths": 0,
+    "graceType": 1
+  },
+    "unscheduledRepaymentParams": {
+    "repaymentAmount": 7000,
+    "repaymentDate": "2025-10-07",
+    "repaymentStrategy": 1
+  }
+}

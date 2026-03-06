@@ -1,0 +1,1 @@
+{"data":{"responseData":{"id":"a90a066b-d5af-4fba-857a-1881c4f40e85","name":"CO","isActive":true,"description":"COMPLIANCE OFFICER","createdBy":"abiodun@miden.co","createdAt":"2025-11-11T14:38:50.77447","permissions":[]},"responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

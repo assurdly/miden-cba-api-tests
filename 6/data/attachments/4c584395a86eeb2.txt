@@ -1,0 +1,14 @@
+{
+  "transactionDate": "2025-06-17T18:24:59.815Z",
+  "transactionSubType": "string",
+  "debitAccountNumber": "string",
+  "creditAccountNumber": "string",
+  "amount": 0,
+  "currency": "string",
+  "charge": 0,
+  "chargeAccountNumber": "string",
+  "narration": "string",
+  "valueDate": "2025-06-17T18:24:59.815Z",
+  "consolidateDebit": true,
+  "applicationId": "string"
+}

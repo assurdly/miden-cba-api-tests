@@ -1,0 +1,12 @@
+{
+  "reportName": "Test",
+  "reportKey": "domiciliary_withdrawals",
+  "category": "Branch",
+  "frequency": "Daily",
+  "automated": false,
+  "recipients": [
+    "Test"
+  ],
+  "description": "Test",
+  "isActive": true
+}

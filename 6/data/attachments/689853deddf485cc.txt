@@ -1,0 +1,7 @@
+{
+  "id": "5d37ae71-5422-4371-a947-a8144a9228",
+  "currencyCode": "SRV",
+  "denominationValue": 40,
+  "type": "Coin",
+  "strapCount": 4
+}

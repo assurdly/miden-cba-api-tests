@@ -1,0 +1,56 @@
+{
+    "corporateInfo": {
+        "name": "Foodies limited",
+        "shortName": "Food",
+        "registrationNumber": "98797708787",
+        "entityType": "SoleProprietorship",
+        "dateOfIncorporation": "2025-10-16T00:00:00.000Z",
+        "countryOfIncorporation": "NGA",
+        "countryOfOrigin": "",
+        "countryOfPrincipalOperation": "NGA",
+        "operationStartDate": null,
+        "website": "",
+        "corporateRepFirstName": "",
+        "corporateRepLastName": "",
+        "corporateRepPhoneNumber": "",
+        "corporateRepEmail": "",
+        "companyTaxIdentificationNumber": "98908908908",
+        "riskCategory": ""
+    },
+    "customerSegmentation": {
+        "customerSegment": "MediumEnterprise",
+        "customerSubSegment": "ManufacturingEnterprises"
+    },
+    "phoneNumberDetails": [
+        {
+            "type": "Home",
+            "phoneNumber": "909099099",
+            "preferredPhone": true,
+            "countryDialCode": "+234",
+            "id": "8440b47c-9698-40ce-af0e-c9790cefc518"
+        }
+    ],
+    "emailDetails": [
+        {
+            "typeOfEmail": "Business",
+            "emailID": "nnjn00jnnjn@gmail.com",
+            "preferredEmail": true,
+            "id": "1da6d6e9-a7bf-4ced-81d3-e79db54dc849"
+        }
+    ],
+    "addressDetails": [
+        {
+            "type": "Business",
+            "residingSince": "",
+            "country": "NGA",
+            "state": "LA",
+            "city": "LAGOS",
+            "postalCode": "",
+            "line1": "khkhjhjhkhjkhkjjjjjjjjj",
+            "line2": "",
+            "preferredAddress": true,
+            "id": "2da047e4-4ff7-44e5-b4b3-b6e3e1b7f0e1"
+        }
+    ],
+    "id": "ca644fd4-003e-4001-afb3-845db72371bc"
+}

@@ -1,0 +1,10 @@
+{
+  "generalLedgerSubheads": [
+    {
+      "id": "6558cda8-673c-4c26-864a-434de38859fa",
+      "glSubHeadCode": "TLPO",
+      "isDefault": false,
+      "isDeleted": true
+    }
+  ]
+}

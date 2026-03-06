@@ -1,0 +1,1 @@
+{"data":{"responseData":{"id":"f3849a6b-51e1-4426-a9c0-aa2e8a504d91","name":"Head office Branch","code":"MAIN","branchSetType":"Single","branchCodes":["MAIN"],"createdAt":"2025-08-03T14:15:31.935106","createdBy":"System"},"responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

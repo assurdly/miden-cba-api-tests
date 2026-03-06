@@ -1,0 +1,1 @@
+{"data":{"responseData":"BranchSet with id 95d83738-e5af-4ec2-a7c0-5de742efc957 successfully rejected","responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

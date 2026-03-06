@@ -1,0 +1,17 @@
+{
+  "name": "Test",
+  "emailAddress": "test@gmail.com",
+  "phoneNumber": "079484847649",
+  "branchSet": "ALL",
+  "branchAddress": "weweweww",
+  "isDefault": false,
+  "chequeProductSetUpDtos": [
+    {
+      "name": "Teerus Regular Savings",
+      "chequeType": "IndividualCheque",
+      "numberOfLeaves": 50,
+      "startingAuditControlNumber": "66",
+      "code": "TRS01"
+    }
+  ]
+}

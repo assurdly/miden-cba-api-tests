@@ -1,0 +1,15 @@
+{
+    "bankName": "Test banks",
+    "shortName": "TestB",
+    "bankCode": "TB",
+    "isLocalBank": true,
+    "country": "NGA",
+    "city": "ABA",
+    "state": "AB",
+    "timeZone": "GMT",
+    "addressLine1": "sfsfdsdsds",
+    "addressLine2": "",
+    "homeCurrency": "NGN",
+    "swiftBic": "sdsd",
+    "postCode": "wdsdsds"
+}

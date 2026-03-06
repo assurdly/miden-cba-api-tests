@@ -1,0 +1,1 @@
+{"data":null,"isSuccess":false,"error":{"responseData":null,"responseCode":"400","responseMessage":"Bank with Id bc53734d-d01e-44d4-9724-6c91ab85f106 request is currently in pending Approval"}}

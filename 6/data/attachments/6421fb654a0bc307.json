@@ -1,0 +1,10 @@
+{
+    "Authorization": "Bearer {{wrong_bearertoken_b}}",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "8af5e647-7099-4c38-8245-9fb841b69b7b",
+    "Host": "sandbox-corebanking-api.miden.co",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive"
+}

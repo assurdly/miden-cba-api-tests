@@ -1,0 +1,33 @@
+{
+    "productCode": "TPS01",
+    "bio": {
+        "title": "Mr",
+        "firstName": "John",
+        "lastName": "Okafor",
+        "gender": "Male",
+        "occupation": "Pilot",
+        "maritalStatus": "Single",
+        "dateOfBirth": "2001-01-18T00:00:00"
+    },
+    "contactInformation": {
+        "phoneNumber": "70345654767",
+        "email": "kidboy@gmail.com",
+        "address": "Avenue",
+        "localGovernment": "ABA",
+        "state": "AB",
+        "country": "NGA"
+    },
+    "kycInformation": {
+        "idType": "TaxProof",
+        "idNumber": "45454554545id",
+        "expiryDate": "2026-02-28T00:00:00.000Z",
+        "bvn": "22262552245",
+        "nin": "41453735549"
+    },
+    "guardianInformation": {
+        "firstName": "",
+        "lastName": "",
+        "gender": "",
+        "natureOfRelationship": ""
+    }
+}

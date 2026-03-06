@@ -1,0 +1,20 @@
+{
+  "accountNumber": "1210000561",
+  "limitAmount": 3500,
+  "currency": "NGN",
+  "applicableDate": "2026-01-19T11:01:43.381Z",
+  "limitType": "Arranged",
+  "normalInterestRate": 5,
+  "penalInterestRate": 5,
+  "remarks": "Testing equal drawing power",
+  "validUntil": "2026-06-25T11:01:43.381Z",
+  "branchId": "BR001",
+  "freeText1": "",
+  "feeCollectionDate": "2026-06-25T11:01:43.381Z",
+  "freeText2": "",
+  "interestType": "Accountlevel",
+  "actualLimitFee": 15,
+  "drawingPower": 3500,
+  "percentage": 7.5,
+  "drawingPowerIndicator": "Percentage"
+}

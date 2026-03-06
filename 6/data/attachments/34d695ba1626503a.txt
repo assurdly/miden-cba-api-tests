@@ -1,0 +1,4 @@
+Id,AccountNumber,PartTransactionType,TransactionAmount,TransactionCurrency,Narration,Narration2,ValueDate,TransactionReference,PartTransactionSerialNumber,ReportCode,Status,Rate,InstrumentNumber,InstrumentSecurityNumber,InstrumentType,InstrumentDate,TransactionCode,RateCode,GrantInstantTod,TemporaryOverdraftId,TemporaryOverdraftType,StandingInstructionSerialNumber,StandingInstructionType,StandingInstructionId,TransactionDate
+0,2210001929,D,2000,NGN,Testing,,03/06/2026 00:00:00,22b05ee0-eba6-4b42-b0d1-394ccb06664b,0,80,Entered,80,,,,,,,False,,,,,,03/06/2026 00:00:00
+0,7810000729,C,3000,NGN,Testing,,03/06/2026 00:00:00,37312137-69d3-4a6c-b1e3-e79154a5cc88,0,80,Entered,80,,,,,,,False,,,,,,03/06/2026 00:00:00
+0,4810001316,C,3000,NGN,Testing,,03/06/2026 00:00:00,0f0a9b5a-920f-4dcd-a55b-a7399e14e1f8,0,80,Entered,80,,,,,,,False,,,,,,03/06/2026 00:00:00

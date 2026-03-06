@@ -1,0 +1,13 @@
+{
+  "glCode": "501000",
+                "glDescription": "Fee Income",
+                "glSubCode": "50118",
+                "glSubDescription": "SALARY PROCESSING FEES",
+                "glClassification": "I",
+  "currencies": [
+    "NGN",
+    "USD",
+    "EUR"
+  ],
+  "branchSet": "Test Branch 5"
+}

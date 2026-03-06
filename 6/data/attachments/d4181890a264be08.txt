@@ -1,0 +1,1 @@
+{"errors":{"corporateInfo.CompanyTaxIdentificationNumber":["Tax Identification Number is required"],"directorDetails[0].NationalId":["The NationalId field is required."]},"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-898b687db31eb2751474a42f5770e30d-1116ad9c672e056c-01"}
