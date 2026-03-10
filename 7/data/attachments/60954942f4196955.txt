@@ -1,0 +1,14 @@
+{
+    "accountNumber": "0010115862",
+    "branchId": "4567",
+    "lienType": "DuetoLoans",
+    "effectiveDate": "2026-01-20T00:00:00.000Z",
+    "validUntil": "2026-01-31T00:00:00.000Z",
+    "lienAmount": "2000",
+    "lienReason": "LoanRecovery",
+    "requestingTeam": "Adim",
+    "lienRemarks": "Loan",
+    "freeText": "Loan payment",
+    "lienReference": "088dc494-28c3-4a26-b1d1-17995f34f550",
+    "isAdvice": true
+}

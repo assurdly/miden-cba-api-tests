@@ -1,0 +1,1 @@
+{"isSuccess":false,"error":{"responseData":[{"fieldName":"File","errorMessages":["File is required.","Invalid file format. Only .csv, .xls, and .xlsx are allowed."]}],"responseCode":"400","responseMessage":"Validation Error"},"data":null}

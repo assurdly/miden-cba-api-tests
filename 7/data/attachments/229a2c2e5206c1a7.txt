@@ -1,0 +1,1 @@
+{"data":null,"isSuccess":false,"error":{"responseData":null,"responseCode":"404","responseMessage":"BankParameter pending request with Id a3eda0da-a866-4ba9-9f33-15d0dfce3813 does not exist"}}

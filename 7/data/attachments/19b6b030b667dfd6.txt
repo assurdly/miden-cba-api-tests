@@ -1,0 +1,7 @@
+{
+  "dataToken": "7ec4a1db1ef34c829eccf087247c7a18",
+  "id": "e94f7a66-8452-49f3-84a3-ed13a92fdda1",
+  "isApproved": false,
+  "requiresAction": true,
+  "message": "Reject Interest Version"
+}

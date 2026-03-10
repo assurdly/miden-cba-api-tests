@@ -1,0 +1,1 @@
+{"isSuccess":false,"error":{"responseData":[{"fieldName":"transactionLimitIds[0]","errorMessages":["Error converting value \"4af1eae9-aab6-47dd-8e64-dc7c\" to type 'System.Guid'. Path 'transactionLimitIds[0]', line 4, position 34."]}],"responseCode":"400","responseMessage":"Validation Error"},"data":null}

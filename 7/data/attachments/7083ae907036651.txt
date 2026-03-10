@@ -1,0 +1,1 @@
+{"data":null,"isSuccess":false,"error":{"responseData":null,"responseCode":"400","responseMessage":"No valid permissions to revoke. They may not exist or already be pending revocation."}}

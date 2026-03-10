@@ -1,0 +1,67 @@
+{
+  "title": "Fr",
+  "firstName": "adafaag",
+  "middleName": "",
+  "lastName": "gdsdgdg",
+  "shortName": "",
+  "gender": "female",
+  "bvn": "64446464646",
+  "nationalId": "46464646464",
+  "motherMaidenName": "",
+  "maritalStatus": "",
+  "countryOfOrigin": "",
+  "stateOfOrigin": "",
+  "localGoverment": "",
+  "numberOfDependents": null,
+  "dateOfBirth": "2004-04-05T00:00:00.000Z",
+  "minor": "No",
+  "customerSegment": "Individual",
+  "customerSubSegment": "HighNetWorthIndividuals",
+  "isCustomerSuspended": "",
+  "isCustomerBlacklisted": "",
+  "isCustomerStaff": "NO",
+  "employeeReference": "",
+  "guardian": {
+    "guardianType": "",
+    "customerID": "",
+    "firstName": "",
+    "lastName": "",
+    "name": "",
+    "phoneNumber": "",
+    "emailID": "",
+    "dateOfBirth": null,
+    "code": null,
+    "documentUpload": null
+  },
+  "phoneNumberDetails": [
+    {
+      "type": "Work",
+      "phoneNumber": "46464646464",
+      "preferredPhone": true,
+      "countryDialCode": "+234"
+    }
+  ],
+  "emailDetails": [
+    {
+      "typeOfEmail": "Work",
+      "emailID": "test@gmail.com",
+      "preferredEmail": true
+    }
+  ],
+  "addressDetails": [
+    {
+      "type": "Business",
+      "residingSince": "",
+      "country": "NGA",
+      "state": "AB",
+      "city": "ABA",
+      "postalCode": "",
+      "line1": "fdfsfsf",
+      "line2": "",
+      "preferredAddress": true
+    }
+  ],
+  "photoDto": {
+    "base64String": "AAAAIGZ0eXBoZWljAAAAAG1pZjFNaUhFbWlhZmhlaWMAAANkbWV0YQAAAAAAAAAhaGRscgAAAAAAAAAAcGljdAAAAAAAAAAAAAAAAAAAAAAkZGluZgAAABxkcmVmAAAAAAAAAAEAAAAMdXJsIAAAAAEAAAAOcGl0bQAAAAAACQAAAOBpaW5mAAAAAAAKAAAAFWluZmUCAAABAAEAAGh2YzEAAAAAFWluZmUCAAABAAIAAGh2YzEAAAAAFWluZmUCAAABAAMAAGh2YzEAAAAAFWluZmUCAAABAAQAAGh2YzEAAAAAFWluZmUCAAABAAUAAGh2YzEAAAAAFWluZmUCAAABAAYAAGh2YzEAAAAAFWluZmUCAAABAAcAAGh2YzEAAAAAFWluZmUCAAABAAgAAGh2YzEAAAAAFWluZmUCAAAAAAkAAGdyaWQAAAAAFWluZmUCAAABAAoAAEV4aWYAAAAANmlyZWYAAAAAAAAAHGRpbWcACQAIAAEAAgADAAQABQAGAAcACAAAAA5jZHNjAAoAAQAJAAABL2lwcnAAAADXaXBjbwAAABNjb2xybmNseAACAAIABoAAAAAMY2xsaQDLAEAAAAAUaXNwZQAAAAAAAAIAAAACAAAAABRpc3BlAAAAAAAABtsAAAO9AAAACWlyb3QAAAAAEHBpeGkAAAAAAwgICAAAAG9odmNDAQQIAAAAvggAAAAAWvAA/P/4+AAACwOgAAEAF0ABDAH//wQIAAADAL4IAAADAABaFwJAoQABACFCAQEECAAAAwC+CAAAAwAAWpAAgEAQCxAvciyqbgQEDAGiAAEACUQBwGCsshEU2QAAAFBpcG1hAAAAAAAAAAkAAQSDgQKHAAIEg4EChwADBIOBAocABASDgQKHAAUEg4EChwAGBIOBAocABwSDgQKHAAgEg4EChwAJBYECBAaFAAAAEGlkYXQAAAEDBtsDvQAAALBpbG9jAQAAAEQAAAoAAQAAAAAAAQAABCgAANDEAAIAAAAAAAEAANTsAADGIwADAAAAAAABAAGbDwABTBoABAAAAAAAAQAC5ykAAJNsAAUAAAAAAAEAA3qVAACw2wAGAAAAAAABAAQrcAAAgDIABwAAAAAAAQAEq6IAAQTTAAgAAAAAAAEABbB1AACv2gAJAAEAAAABAAAAAAAAAAgACgAAAAAAAQAAA5QAAACUAAAAAW1kYXQAAAAAAAZcywAAAAZFeGlmAABNTQAqAAAACAAEARoABQAAAAEAAAA+ARsABQAAAAEAAABGASgAAwAAAAEAAgAAh2kABAAAAAEAAABOAAAAAAAAAEgAAAABAAAASAAAAAEAA5KGAAcAAAASAAAAeKACAAQAAAABAAAG26ADAAQAAAABAAADvQAAAABBU0NJSQAAAFNjcmVlbnNob3QAANDAKAGvhAbZW7SVmFZzv1UQUV0/I4hXBxl4INYaJEVoU6pgQiXGmS2cwbQ8AK7dyVZDVf/B+P1RroY7+W144a0epldgOSTzgTv1OId/QOOhowQwT/6Eky4oW2pbQoIo1HuW5//H7POVzuInGEG3VOXZAHG1MaapUegfnndD+g29m07BIRQrvN9nnzgG1GvoaQbTzox/zJ3ug3Yv5PGKwpdgD4Ccy4x2vMsFEo5KgyoiSMLw0YS0HlFitQqfhDSQdH7HI02gxqcSE3lJOeCo27qkb7ey2SpQIZY9gM4QoW0idYTe+rxlyyb1KdPIYBN1BP0ncZ1bcJfoiKZqqELAywG1oHAlpt+wMz3gITsUaAxvB4WsX5eynXYaKtE/zULx3geor4cSmuKvtZ9vAaI0uZCkvmD2pnS8MjS2YAKnEQR2J1/JpQ8NMhF3FP5UL7/U/sWwCrM/YYwcmNsjHR1zAEMo94Xx+kmXIjcAweEl6LPvvKI83Rsa0u1YduULycJQKg/sO2ZNS5YXIL/KkrI0n2Show more"
+  }
+}

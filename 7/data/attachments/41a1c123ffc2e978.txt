@@ -1,0 +1,1 @@
+{"data":{"responseData":"User deactivate request with Id b3ee4a34-fa0a-4d38-af86-8ebe17e5ddcb initiated successfully","responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

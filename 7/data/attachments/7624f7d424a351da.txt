@@ -1,0 +1,8 @@
+
+{
+  "userId": "3ce2429a-eeaf-4e29-8632-566c4820cadf",
+  "reason": "Test",
+  "permissionIds": [
+    "0125f3dc-6819-460b-989d-be623c61f597"
+  ]
+}

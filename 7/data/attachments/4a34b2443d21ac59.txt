@@ -1,0 +1,43 @@
+{
+  "name": "Sub Acccount",
+  "shortName": "string",
+  "code": "SU-AC003",
+  "prefix": "string",
+  "effectiveDate": "2025-03-09T09:31:55.693Z",
+  "expiryDate": "2028-01-31T09:31:55.693Z",
+  "branchSetId": "B-Allen Set 2",
+  "postingWorkClass": "3",
+  "transactionRestrictionOption": "None",
+  "productType": "string",
+  "officeProductCategory": "Basic",
+  "contraPartTransaction": "Credit",
+  "productException": {
+    "accountFrozenException": "string",
+    "valueDatedTransactionException": "string",
+    "accountInDebitBalanceException": "string",
+    "noTransactionAllowedException": "string",
+    "creditTransactionLimitException": "string",
+    "creditCashLimitException": "10000",
+    "creditTransferLimitException": "10000",
+    "debitCashLimitException": "10000",
+    "debitTransferLimitException": "10000",
+    "debitBalanceLimitException": "10000"
+  },
+  "productCurrencies": [
+    {
+      "currency": "NGN",
+      "cashDebitLimit": 10000,
+      "cashCreditLimit": 100000,
+      "transferDebitLimit": 10000,
+      "transferCreditLimit": 100000,
+      "accountMinimumBalance": 0,
+      "accountReportCode": "TBA01"
+    }
+  ],
+  "generalLedgers": [
+    {
+      "subCode": "10003",
+      "isDefault": true
+    }
+  ]
+}

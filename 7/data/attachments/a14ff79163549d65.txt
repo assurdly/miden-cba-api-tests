@@ -1,0 +1,10 @@
+{
+    "tableCurrency": "NGN",
+    "startDate": "2026-01-19T00:00:00.000Z",
+    "endDate": "2026-01-31T00:00:00.000Z",
+    "debitBeginSlabAmount": 1,
+    "debitEndSlabAmount": 999999999999.99,
+    "debitNormalInterestRate": 1,
+    "debitPenalInterest": 1,
+    "tableCode": "TSME"
+}

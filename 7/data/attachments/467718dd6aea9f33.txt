@@ -1,0 +1,1 @@
+{"errors":{"id":["Error converting value \"{{loan_document_pending_last_id}}\" to type 'System.Guid'. Path 'id', line 3, position 43."],"command":["The command field is required."]},"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-088751a3cc3faf6f19f428f51cb7f7d7-41ce25ba8ac447eb-01"}

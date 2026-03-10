@@ -1,0 +1,1 @@
+{"data":null,"isSuccess":false,"error":{"responseData":{"field":"BankCode","errorMessage":["BankCode TB already exist"]},"responseCode":"400","responseMessage":"Validation Error"}}

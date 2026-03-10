@@ -1,0 +1,1 @@
+{"isSuccess":false,"error":{"responseCode":"422","responseMessage":"Transaction value date 2026-01-27 exceeds allowed back value date limit of 100 day(s)."}}

@@ -1,0 +1,128 @@
+{
+  "personalInfo": {
+    "title": "Fr",
+    "firstName": "Lionel",
+    "middleName": "",
+    "lastName": "Messi",
+    "shortName": "The GOAT",
+    "gender": "Male",
+    "bvn": "22274138915",
+    "nationalId": "1177765642",
+    "motherMaidenName": "",
+    "maritalStatus": "",
+    "countryOfOrigin": "",
+    "stateOfOrigin": "",
+    "localGoverment": "",
+    "numberOfDependents": null,
+    "dateOfBirth": "1987-06-24T00:00:00.000Z",
+    "minor": "No",
+    "customerSegment": "Individual",
+    "customerSubSegment": "RegularIndividuals",
+    "isCustomerSuspended": "",
+    "isCustomerBlacklisted": "",
+    "isCustomerStaff": "NO",
+    "employeeReference": "",
+    "guardian": {
+      "guardianType": "",
+      "customerID": "",
+      "firstName": "",
+      "lastName": "",
+      "name": "",
+      "phoneNumber": "",
+      "emailID": "",
+      "dateOfBirth": null,
+      "code": null,
+      "documentUpload": {
+        "upload": null,
+        "fileName": null,
+        "photoKey": null
+      }
+    },
+    "phoneNumberDetails": [
+      {
+        "type": "Business",
+        "phoneNumber": "9038012880",
+        "preferredPhone": true
+      }
+    ],
+    "emailDetails": [
+      {
+        "typeOfEmail": "Business",
+        "emailID": "leo_messi1987@yahoo.com",
+        "preferredEmail": true
+      }
+    ],
+    "addressDetails": [
+      {
+        "type": "Business",
+        "residingSince": "",
+        "country": "NGA",
+        "state": "LA",
+        "city": "IKEJA",
+        "postalCode": "",
+        "line1": "19 Ajanaku Street, Opebi, Lagos.",
+        "line2": "",
+        "preferredAddress": true
+      }
+    ]
+  },
+  "customerSegmentation": {
+    "customerSegment": "Individual",
+    "customerSubSegment": "RegularIndividuals"
+  },
+  "kycInformation": {
+    "isCustomerSuspended": "",
+    "isCustomerBlacklisted": "",
+    "isCustomerStaff": "NO",
+    "employeeReference": ""
+  },
+  "guardian": {
+    "guardianType": "",
+    "customerID": "",
+    "firstName": "",
+    "lastName": "",
+    "name": "",
+    "phoneNumber": "",
+    "emailID": "",
+    "dateOfBirth": null,
+    "code": null,
+    "documentUpload": {
+      "upload": null,
+      "fileName": null,
+      "photoKey": null
+    },
+    "id": "9e4d6f97-cdd8-4b0f-a0e5-673f8442946f"
+  },
+  "emailDetails": [
+    {
+      "typeOfEmail": "Business",
+      "emailID": "leo_messi1987@yahoo.com",
+      "preferredEmail": true,
+      "id": "16f2e065-2d42-47ec-8ddd-1859f3006096"
+    }
+  ],
+  "addressDetails": [
+    {
+      "type": "Business",
+      "residingSince": "",
+      "country": "NGA",
+      "state": "LA",
+      "city": "IKEJA",
+      "postalCode": "",
+      "line1": "19 Ajanaku Street, Opebi, Lagos.",
+      "line2": "",
+      "preferredAddress": true,
+      "id": "6d31fabd-e2d1-4d29-b2e4-8c94e16b533d"
+    }
+  ],
+  "phoneNumberDetails": [
+    {
+      "type": "Business",
+      "phoneNumber": "9038012880",
+      "preferredPhone": true,
+      "countryDialCode": "+234",
+      "id": "244d7c8b-723d-4902-895e-047abc439133"
+    }
+  ],
+  "id": "2b2f3e34-6cbd-4fcb-ba40-0fb64ea4c0ca"
+}

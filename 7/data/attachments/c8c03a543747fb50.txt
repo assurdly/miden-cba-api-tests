@@ -1,0 +1,4 @@
+First Name,Last Name,Email Address,Employee ID,Department ID,Branch ID,Type,Phone Number
+John,Doe,john.doe@example.com,EMP001,DPT001,BR001,FulltimeContract,1234567890
+Jane,Smith,jane.smith@example.com,EMP002,DPT002,BR002,TemporaryContract,0987654321
+Jane,Welsch,jane.welsch@example.com,EMP003,DPT001,BR001,Permanent,0987654321

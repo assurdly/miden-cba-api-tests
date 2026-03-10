@@ -1,0 +1,5 @@
+{
+    "startYear": "2026",
+    "endYear": "2028",
+    "branchId": "4567"
+}

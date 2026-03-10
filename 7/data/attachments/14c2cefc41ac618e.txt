@@ -1,0 +1,23 @@
+{
+  "employeeId": "TY000111",
+  "userType": "Permanent",
+  "firstName": "sddsds",
+  "lastName": "sdsdsd",
+  "emailId": "morgan+20assurdly.com",
+  "phoneNumber": "43434343",
+  "branchId": "AL",
+  "accountAccessCode": "",
+  "accountExpiryDate": "2099-12-30T00:00:00.000Z",
+  "loginTimeLow": "00:00:00",
+  "loginTimeHigh": "23:32:00",
+  "maxInActiveDays": 99,
+  "maxInactiveTimeMinutes": 99,
+  "roleId": "2f901b23-ba20-4267-a040-2240e595c601",
+  "excpWorkClass": "exec-one",
+  "userTills": [
+    {
+      "currency": "NGN",
+      "account": "001NGN00055"
+    }
+  ]
+}

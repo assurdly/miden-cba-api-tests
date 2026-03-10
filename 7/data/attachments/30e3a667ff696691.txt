@@ -1,0 +1,72 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "currencyCode": "GHS",
+        "denominationValue": 400,
+        "type": "Note",
+        "strapCount": 100
+    },
+    {
+        "id": "381128f6-3288-46e1-a0d1-90d773c4553a",
+        "currencyCode": "GHS",
+        "denominationValue": 200,
+        "type": "Note",
+        "strapCount": 100
+    },
+    {
+        "id": "502e0685-8206-422d-9777-348235bb7b58",
+        "currencyCode": "GHS",
+        "denominationValue": 100,
+        "type": "Note",
+        "strapCount": 100
+    },
+    {
+        "id": "1ec2b192-60bd-4bb7-bbde-492cbb7e5d9b",
+        "currencyCode": "GHS",
+        "denominationValue": 50,
+        "type": "Note",
+        "strapCount": 100
+    },
+    {
+        "id": "46afc43f-3e9f-4f28-84af-5f011dc25dbc",
+        "currencyCode": "GHS",
+        "denominationValue": 20,
+        "type": "Note",
+        "strapCount": 100
+    },
+    {
+        "id": "688e3a8c-e7de-4227-ab24-5d4ada8d4f23",
+        "currencyCode": "GHS",
+        "denominationValue": 10,
+        "type": "Note",
+        "strapCount": 100
+    },
+    {
+        "id": "ab77483b-7056-47e0-8b93-7b681f6139a8",
+        "currencyCode": "GHS",
+        "denominationValue": 5,
+        "type": "Note",
+        "strapCount": 100
+    },
+    {
+        "id": "cf4621b8-111c-4dc4-b2f8-eaf9ecb262e5",
+        "currencyCode": "GHS",
+        "denominationValue": 2,
+        "type": "Coin",
+        "strapCount": 100
+    },
+    {
+        "id": "a43f2a2b-8755-4060-98bb-67eae816dea9",
+        "currencyCode": "GHS",
+        "denominationValue": 2,
+        "type": "Note",
+        "strapCount": 100
+    },
+    {
+        "id": "7552b4f9-fee6-4672-a53b-4fc291a481da",
+        "currencyCode": "GHS",
+        "denominationValue": 1,
+        "type": "Coin",
+        "strapCount": 100
+    }
+]

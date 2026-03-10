@@ -1,0 +1,1 @@
+{"data":{"responseData":"Pending General Ledger Subhead with Id a3d8d0f9-7cee-4ac5-af7b-b3073a7420b6 successfully cancelled.","responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

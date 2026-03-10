@@ -1,0 +1,1 @@
+{"data":null,"isSuccess":false,"error":{"responseData":{"field":"Code","errorMessage":["BranchSet with Code  888 already exist"]},"responseCode":"400","responseMessage":"Validation Error"}}

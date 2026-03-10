@@ -1,0 +1,1 @@
+{"isSuccess":false,"error":{"responseCode":"422","responseMessage":"End of Day (EOD) cannot be run because there are unposted transactions in \u0027Entered\u0027 status. Please post or cancel all pending transactions and try again."}}

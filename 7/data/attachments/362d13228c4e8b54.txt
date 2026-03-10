@@ -1,0 +1,7 @@
+{
+  "dataToken": "bc163710608b4f12bfc383be126ac959",
+  "id": "484cd1fc-ee0d-4eed-888b-2b643aad5721",
+  "isApproved": true,
+  "requiresAction": false,
+  "message": "Approve GL Account"
+}

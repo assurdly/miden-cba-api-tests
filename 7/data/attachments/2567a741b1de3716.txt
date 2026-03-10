@@ -1,0 +1,1 @@
+{"errors":{"productGeneralDetail.Prefix":["Prefix is required.","Prefix must be exactly 2 characters."]},"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-d0c1d1b05fa3247388a5afd1f4d89d6a-ce72ab6415da502f-01"}

@@ -1,0 +1,4 @@
+{
+  "objectType": "string",
+  "payload": "string"
+}

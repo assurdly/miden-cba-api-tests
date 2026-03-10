@@ -1,0 +1,29 @@
+{
+  "transactionType": "string",
+  "transactionSubType": "string",
+  "transactions": [
+    {
+      "accountNumber": "string",
+      "partTransactionType": "string",
+      "transactionAmount": 0,
+      "transactionCurrency": "string",
+      "narration": "string",
+      "narration2": "string",
+      "valueDate": "2025-01-14T18:20:25.389Z",
+      "reportCode": "string",
+      "rate": 0,
+      "instrumentNumber": "string",
+      "instrumentType": "string",
+      "instrumentDate": "2025-01-14T18:20:25.389Z",
+      "transactionCode": "string",
+      "rateCode": "string",
+      "grantInstantTod": true,
+      "temporaryOverdraftId": "string",
+      "temporaryOverdraftType": "string",
+      "standingInstructionSerialNumber": "string",
+      "standingInstructionType": "string",
+      "standingInstructionId": "string"
+    }
+  ],
+  "applicationId": "string"
+}

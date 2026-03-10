@@ -1,0 +1,15 @@
+{
+  "bankCode": "BC123",
+  "branchCode": "4567",
+  "branchName": "Ikeja Opebi 010",
+  "bankName": "Triley Bank of africa",
+  "shortName": "TIA-010",
+  "addressLine1": "10, Lagos Lane",
+  "addressLine2": "string",
+  "addressLine3": "string",
+  "country": "NG",
+  "state": "Lagos",
+  "city": "Ikeja",
+  "sortCode": "13-24-69",
+  "swiftBicCode": "ABCDUS47XXX"
+}

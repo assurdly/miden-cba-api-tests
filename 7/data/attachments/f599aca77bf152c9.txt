@@ -1,0 +1,6 @@
+{
+  "roleId": "1baa2f0d-1d6f-496e-9a22-89342d9140c4",
+  "permissionIds": [
+    "014cdf77-66c0-426d-90ff-696eb88eac59"
+  ]
+}

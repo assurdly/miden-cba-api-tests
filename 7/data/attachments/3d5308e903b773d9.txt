@@ -1,0 +1,7 @@
+{
+  "roleId": "2f901b23-ba20-4267-a040-2240e595c601",
+  "reason": "Test",
+  "transactionLimitIds": [
+    "ef428ef1-9d05-4668-8068-3f65472e6990"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "dataToken": null,
+  "id": "{{acc_pending_id_last}}",
+  "isApproved": true,
+  "requiresAction": false,
+  "message": "Accept IA creation"
+}

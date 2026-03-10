@@ -1,0 +1,7 @@
+{
+  "dataToken": "{{loan_collaterals_dataToken_last}}",
+  "id": "{{loan_collaterals_pending_last_id}}",
+  "isApproved": false,
+  "requiresAction": true,
+  "message": "Reject request"
+}

@@ -1,0 +1,1 @@
+{"data":null,"isSuccess":false,"error":{"responseData":null,"responseCode":"400","responseMessage":"External Branch with Id f5c1a5b3-6c78-49ca-be9f-43519fed9740 request is currently in pending Approval"}}

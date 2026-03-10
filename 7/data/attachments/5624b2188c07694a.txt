@@ -1,0 +1,3 @@
+{
+  "id": "{{product_parameter_pending_last_id}}"
+}

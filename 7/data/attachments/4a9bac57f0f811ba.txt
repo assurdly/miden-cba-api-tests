@@ -1,0 +1,1 @@
+{"data":null,"isSuccess":false,"error":{"responseData":["EMP0044","EMP0022"],"responseCode":"400","responseMessage":"Duplicate Employee Reference(s) exist in the System."}}

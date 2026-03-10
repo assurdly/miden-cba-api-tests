@@ -1,0 +1,19 @@
+{
+    "group": "FeesandCharges",
+    "primaryCharge": "StatementofAccountFees",
+    "narration": "Export of bank statement",
+    "calculationCurrency": "LYD",
+    "collectionCurrency": "NGN",
+    "amountType": "FixedCharge",
+    "fixedAmount": 50,
+    "percentage": "0",
+    "minimumAmount": "0",
+    "maximumAmount": "0",
+    "trigger": "StatementofAccountFees",
+    "feePlaceholder": "PH1000201",
+    "transactionDirection": "Debit",
+    "refundAllowed": false,
+    "partialRecovery": false,
+    "rateCode": "",
+    "approvalNotes": ""
+}

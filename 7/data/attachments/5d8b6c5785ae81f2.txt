@@ -1,0 +1,7 @@
+{
+  "dataToken": "{{loan_document_pending_dataToken_last}}",
+  "id": "{{loan_document_pending_last_id}}",
+  "isApproved": false,
+  "requiresAction": true,
+  "message": "Reject Document Update"
+}

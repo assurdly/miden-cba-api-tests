@@ -1,0 +1,1 @@
+{"data":{"responseData":{"id":"0073cbc5-c273-4490-9600-e0c8636d512b","name":"SuriNamese Dollar","description":"Official currency of SuriName","isoCode":"SRD","isoNumber":"968","country":"SuriName","isActive":true,"isBaseCurrency":false,"createdBy":"SYSTEM","createdAt":"2025-08-18T14:36:02.217875"},"responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

@@ -1,0 +1,121 @@
+{
+    "productGeneralDetail": {
+        "name": "test",
+        "shortName": "",
+        "isStaffProduct": false,
+        "effectiveDate": "2026-01-21T00:00:00.000Z",
+        "expiryDate": "2026-01-31T00:00:00.000Z",
+        "minimumAgeRequirement": "2",
+        "maximumAgeRequirement": "10",
+        "code": "Ty000",
+        "prefix": "",
+        "type": "SBA"
+    },
+    "exception": {
+        "accountInDebitBalance": "",
+        "accountInCreditBalance": "",
+        "accountBalanceBelowMininum": "",
+        "ageOutOfAllowedRange": "",
+        "sanctionExceedsLimit": "",
+        "sanctionLimitExpired": "",
+        "insufficientAvailableBalance": "",
+        "accountNameChanged": "",
+        "customerAccountFrozen": "",
+        "backDatedTransaction": "",
+        "valueDatedTransaction": ""
+    },
+    "productParameterDetails": [
+        {
+            "currency": "NGN",
+            "numberOfWithdrawalsAllowed": "0",
+            "payInterestIfWithdrawalsExceeded": false,
+            "accountInactivityDuration": "10",
+            "inactiveToDormantDuration": "20",
+            "debitBalanceLimit": "1000",
+            "debitInterestMethod": "FlatRate",
+            "creditInterestMethod": "FlatRate",
+            "accountStatementType": "MiniStatement",
+            "accountStatementFrequency": "Biennially"
+        }
+    ],
+    "interestVersions": [
+        {
+            "currency": "NGN",
+            "startDate": "2026-01-21T00:00:00.000Z",
+            "endDate": "2026-01-30T00:00:00.000Z",
+            "creditBeginSlabAmount": 1,
+            "creditEndSlabAmount": 999999999999.99,
+            "creditNormalInterestRate": 1,
+            "debitBeginSlabAmount": 1,
+            "debitEndSlabAmount": 999999999999.99,
+            "debitNormalInterestRate": 1,
+            "debitPenalInterest": "0"
+        }
+    ],
+    "productCurrencyDetails": [
+        {
+            "currency": "NGN",
+            "creditInterestMinimumPercentage": "1",
+            "creditInterestMaximumPercentage": "10",
+            "debitInterestMinimumPercentage": "23",
+            "debitInterestMaximumPercentage": "45",
+            "daysInYearCredit": "20",
+            "leapYearAdjustmentCredit": "50",
+            "daysInYearDebit": "02",
+            "leapYearAdjustmentDebit": "50",
+            "applyWithholdingTax": false,
+            "taxCollectionAccountPlaceholder": "",
+            "withholdingTaxPercentage": "0",
+            "roundOffTaxValueDecimalPlaces": "0",
+            "singleDebitLimit": "300",
+            "dailyDebitLimit": "23",
+            "weeklyDebitLimit": "23",
+            "monthlyDebitLimit": "23",
+            "singleCreditLimit": "23",
+            "dailyCreditLimit": "23",
+            "weeklyCreditLimit": "23",
+            "monthlyCreditLimit": "233",
+            "cumulativeBalanceLimit": "34",
+            "transferDebitLimit": "100",
+            "transferCreditLimit": "2000",
+            "accountMinimumBalance": "200",
+            "accountReportCode": "GLReconciliationReport"
+        }
+    ],
+    "productTransaction": {
+        "profitLossAccountCurrency": "",
+        "interestPayable": false,
+        "interestPaybleAccountPlaceholder": "",
+        "interestReceivable": false,
+        "interestReceivableAccountPlaceholder": "",
+        "penalInterestAccountPlaceholder": "",
+        "interestExpenseAccount": "",
+        "interestIncomeAccount": "",
+        "interestCalculationFrequencyCredit": "",
+        "interestCalculationFrequencyDebit": ""
+    },
+    "generalLedgerSubHeads": [
+        {
+            "glSubHead": "50112",
+            "isDefault": false
+        }
+    ],
+    "feeDetails": [
+        {
+            "type": "",
+            "event": ""
+        }
+    ],
+    "documentDetails": [
+        {
+            "code": "NationalIdentityCard",
+            "isMandatory": false
+        }
+    ],
+    "instrumentDetails": [
+        {
+            "type": "DepositSlip",
+            "usage": "Credit"
+        }
+    ]
+}

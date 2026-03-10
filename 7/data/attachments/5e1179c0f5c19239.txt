@@ -1,0 +1,1 @@
+{"errors":{"id":["Error converting value \"{{instrument_pending_last_id}}\" to type 'System.Guid'. Path 'id', line 3, position 40."],"command":["The command field is required."]},"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-c0afbbbd1f3e50c5beee415f4d6216cd-0eaa010cb0f80b1e-01"}

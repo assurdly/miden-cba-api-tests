@@ -1,0 +1,1 @@
+﻿Branch Name,Branch Code,Customer Type,Account Name,BVN,TIN,Phone Number,Account Number,Reference Number,Transaction Date,Part Tran Type,Narration,Currency,Amount,Transaction Type,Related Account Numbers

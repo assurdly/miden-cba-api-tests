@@ -1,0 +1,1 @@
+{"errors":{"id":["Error converting value \"{{currencies_pending_id_last}}\" to type 'System.Guid'. Path 'id', line 3, position 40."],"command":["The command field is required."]},"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-3c803131a44023da79faf2b85b46b9dc-9e328e10243f07cf-01"}

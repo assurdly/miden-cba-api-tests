@@ -1,0 +1,1 @@
+﻿Account Number,Account Opening Date,Account Closure Status,Clear Balance Amount,Customer Name,State,Product Code,Product

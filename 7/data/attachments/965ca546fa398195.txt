@@ -1,0 +1,36 @@
+{
+  "currencyRequests": [
+    {
+      "id": "794c1fbe-597b-4b50-bbf8-f54d60e9adc2",
+      "currency": "NGN",
+      "creditInterestMinimumPercentage": 20,
+      "creditInterestMaximumPercentage": 70,
+      "debitInterestMinimumPercentage": 20,
+      "debitInterestMaximumPercentage": 70,
+      "daysInYearCredit": 365,
+      "leapYearAdjustmentCredit": 1,
+      "daysInYearDebit": 365,
+      "leapYearAdjustmentDebit": 1,
+      "applyWithholdingTax": true,
+      "withholdingTaxPercentage": 3.5,
+      "taxCollectionAccountPlaceholder": "string",
+      "roundOffTaxValueDecimalPlaces": 2,
+      "cashDebitLimit": 0,
+      "cashCreditLimit": 0,
+      "transferDebitLimit": 0,
+      "transferCreditLimit": 0,
+      "singleDebitLimit": 0,
+      "dailyDebitLimit": 0,
+      "weeklyDebitLimit": 0,
+      "monthlyDebitLimit": 0,
+      "singleCreditLimit": 0,
+      "dailyCreditLimit": 0,
+      "weeklyCreditLimit": 0,
+      "monthlyCreditLimit": 0,
+      "cumulativeBalanceLimit": 0,
+      "accountMinimumBalance": 0,
+      "accountReportCode": "LA0001",
+      "isDeleted": true
+    }
+  ]
+}
