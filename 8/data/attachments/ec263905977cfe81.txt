@@ -1,0 +1,6 @@
+{
+  "currencyCode": "BRD",
+  "isApproved": true,
+  "requiresAction": false,
+  "message": ""
+}

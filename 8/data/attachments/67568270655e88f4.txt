@@ -1,0 +1,51 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "name": "TA Test",
+    "code": "56tg",
+    "effectiveDate": "2026-02-25T00:00:00.000Z",
+    "expiryDate": "2099-12-30T00:00:00.000Z",
+    "officeProductCategory": "Basic",
+    "productType": "Liability",
+    "branchSetId": "ALL",
+    "postingWorkClass": "1",
+    "officeProductType": "",
+    "contraPartTransaction": "",
+    "productException": {
+        "accountFrozenException": "",
+        "valueDatedTransactionException": "",
+        "noTransactionAllowedException": "",
+        "creditTransactionLimitException": "",
+        "creditCashLimitException": "",
+        "creditTransferLimitException": "",
+        "debitCashLimitException": "",
+        "debitTransferLimitException": "",
+        "debitBalanceLimitException": ""
+    }
+}

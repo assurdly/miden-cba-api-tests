@@ -1,0 +1,26 @@
+{
+  "transactionType": "CashDeposit",
+  "transactionSubType": "CustomerInduced",
+  "tellerId": "TY011",
+  "branchId": "ALB01",
+  "transactionDate": "2026-01-27T00:00:00",
+  "valueDate": "2026-01-27T00:00:00",
+  "narration": "jhhgghg",
+  "currencyCode": "NGN",
+  "amount": 100000,
+  "instrumentType": "",
+  "instrumentNumber": "",
+  "denominations": [
+    {
+      "type": "Note",
+      "denomination": 1000,
+      "totalQty": 100,
+      "mutilatedQty": 0,
+      "value": 0
+    }
+  ],
+  "fromType": "TillAccount",
+  "fromAccount": "001NGN00077",
+  "toType": "CustomerAccount",
+  "toAccount": "3010115430"
+}

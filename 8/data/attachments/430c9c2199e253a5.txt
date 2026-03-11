@@ -1,0 +1,10 @@
+{
+  "documents": [
+    {
+      "id": "080a4aaf-9213-4575-80e5-329061fb35ac",
+      "isMandatory": true,
+      "code": "11",
+      "isDeleted": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "token": "203074",
+    "username": "kehinde+2@assurdly.com",
+    "twoFactorType": "GoogleAuth",
+    "validationToken": "Loginc84af9a43fb0482ea6e94125b285567a_2Factor",
+    "location": "Nigeria"
+}
+
+
+
+ 

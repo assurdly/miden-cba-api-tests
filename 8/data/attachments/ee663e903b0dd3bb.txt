@@ -1,0 +1,7 @@
+{
+  "dataToken": "0c1bd947beee44d9b28c67897c36dfc8",
+  "id": "998e06e2-b36c-447e-a4e0-92f06ccfeaa6",
+  "isApproved": true,
+  "requiresAction": false,
+  "message": "approve multi record joint account holders"
+}

@@ -1,0 +1,13 @@
+{
+  "accountNumber": "7610002301",
+   "restructuringDate": "2025-07-13",
+  "writeOffAmount": 0,
+  "outstandingInterestTreatementOption": 1,
+  "interestRate": 5,
+  "tenorValue": 6,
+  "firstRepaymentDate": "2025-07-14",
+  "moratorium": {
+    "moratoriumMonths": 0,
+    "graceType": 1
+  }
+}

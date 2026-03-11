@@ -1,0 +1,1 @@
+{"data":null,"isSuccess":false,"error":{"responseData":null,"responseCode":"404","responseMessage":"Role with Id 00798e4e-ae9b-4487-aca1-105d62ab81f6 is already active"}}

@@ -1,0 +1,5 @@
+GLCode,GLDescription,GLSubCode,GLSubDescription,GLClassification,Currencies,BranchSet
+1000,CASH,10001,TELLER CASH 1,A,"NGN,GBP",Lekki Branches
+1002,ATM,10021,ATM 1,E,"NGN,USD",VI Branches
+1003,POS,10031,POS 1,I,"NGN,USD",Ikeja Branches
+1004,SECURITY,10041,SECURITY 1,L,"NGN,GBP",Yaba Branches

@@ -1,0 +1,20 @@
+{
+  "accountHolders": [
+    {
+      "customerId": "RHNWIND1",
+      "firstName": "TestingAssuerdly",
+      "lastName": "TEstor",
+      "email": "test@mailinator.com",
+      "phoneNumber": "09087650987",
+      "isDeleted": false
+    },
+       {
+      "customerId": "RREGIND24",
+      "firstName": "Tesoooooo",
+      "lastName": "George",
+      "email": "test@gmail.com",
+      "phoneNumber": "90200400111",
+      "isDeleted": true
+    }
+  ]
+}

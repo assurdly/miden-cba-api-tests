@@ -1,0 +1,33 @@
+{
+    "productCode": "TRS01",
+    "bio": {
+        "title": "Mrs",
+        "firstName": "Mima",
+        "lastName": "Amada",
+        "gender": "female",
+        "occupation": "Musician",
+        "maritalStatus": "Single",
+        "dateOfBirth": "1991-12-18T00:00:00.000Z"
+    },
+    "contactInformation": {
+        "phoneNumber": "+2348085047804",
+        "email": "Mima@gmail.com",
+        "address": "Number 1, Port Road",
+        "localGovernment": "PORT HARCOURT",
+        "state": "RI",
+        "country": "NGA"
+    },
+    "kycInformation": {
+        "idType": "VoterRegistrationCard",
+        "idNumber": "FA5B 4EC5 E663 3738 083",
+        "expiryDate": "2029-09-21T00:00:00.000Z",
+        "bvn": "22262558333",
+        "nin": "5611770333"
+    },
+    "guardianInformation": {
+        "firstName": "Emma",
+        "lastName": "Amanda",
+        "gender": "Male",
+        "natureOfRelationship": "Father"
+    }
+}

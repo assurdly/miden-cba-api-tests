@@ -1,0 +1,10 @@
+{
+  "employeeID": "T988LONERMr.CRC",
+  "firstName": "Leopoldo",
+  "lastName": "Windler",
+  "type": "Permanent",
+  "departmentIdentifier": "DPT101",
+  "email": "morgan+stickySunday@gmail.com",
+  "phoneNumber": "+2347002444200",
+  "branchId": "ALB01"
+}

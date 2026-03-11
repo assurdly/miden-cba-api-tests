@@ -1,0 +1,7 @@
+{
+  "dataToken": "bbd62a53311f4774bca452e71a775ef6",
+  "id": "ede6f765-f207-4c73-9b4f-a1f31ce8eaf7",
+  "isApproved": false,
+  "requiresAction": true,
+  "message": "Reject fee update"
+}

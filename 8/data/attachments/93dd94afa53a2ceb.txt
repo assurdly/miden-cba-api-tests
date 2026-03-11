@@ -1,0 +1,8 @@
+{
+    "name": "Test tes ",
+    "description": "test",
+    "type": "Weekend",
+    "branch": "",
+    "branchSet": "Head office Branch",
+    "holidayDate": "2026-05-04T23:00:00.000Z"
+}

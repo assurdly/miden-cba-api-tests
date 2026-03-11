@@ -1,0 +1,1 @@
+{"data":null,"isSuccess":false,"error":{"responseData":null,"responseCode":"400","responseMessage":"No valid transaction limits to revoke. They may not exist or may already be pending revocation."}}

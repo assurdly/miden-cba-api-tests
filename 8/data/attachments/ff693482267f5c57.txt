@@ -1,0 +1,1 @@
+{"data":{"responseData":{"total":73,"active":66,"inActive":7,"pending":13},"responseCode":"Employee Statistics Retrieved Successfully","responseMessage":"Successful"},"isSuccess":true,"error":null}

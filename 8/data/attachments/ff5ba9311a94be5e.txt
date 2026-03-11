@@ -1,0 +1,7 @@
+{
+  "dataToken": "{{instrument_pending_dataToken_last}}",
+  "id": "{{instrument_pending_last_id}}",
+  "isApproved": true,
+  "requiresAction": false,
+  "message": "Instrument Creation request"
+}

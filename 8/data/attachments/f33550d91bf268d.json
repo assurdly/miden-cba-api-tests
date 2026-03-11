@@ -1,0 +1,9 @@
+{
+    "Date": "Wed, 11 Mar 2026 10:00:32 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "2939",
+    "Connection": "keep-alive",
+    "Server": "Kestrel",
+    "Access-Control-Expose-Headers": "Pagination",
+    "Pagination": "{\"currentPage\":1,\"itemsPerPage\":10,\"totalItems\":58,\"totalPages\":6,\"hasNextPage\":true,\"hasPreviousPage\":false,\"nextPageUrl\":\"\"}"
+}

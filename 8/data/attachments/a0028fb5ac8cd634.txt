@@ -1,0 +1,1 @@
+{"data":{"responseData":{"accountNumber":"0010115862","lienAmount":2000.0,"lienReference":"dead4013-5998-4d20-8279-106e4d24aafc","lienBlockId":null,"validUntil":"2026-01-31T00:00:00Z","lienRemarks":"Loan","transactionId":null},"responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

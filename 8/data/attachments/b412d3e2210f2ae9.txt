@@ -1,0 +1,33 @@
+{
+    "productCode": "500",
+    "bio": {
+        "title": "Mr",
+        "firstName": "David",
+        "lastName": "Okafor",
+        "gender": "Female",
+        "occupation": "Nurse",
+        "maritalStatus": "Married",
+        "dateOfBirth": "1974-07-24T00:00:00"
+    },
+    "contactInformation": {
+        "phoneNumber": "7056453421",
+        "email": "dav@gmail.com",
+        "address": "Pilot road",
+        "localGovernment": "ABA",
+        "state": "AB",
+        "country": "NGA"
+    },
+    "kycInformation": {
+        "idType": "DriverLicense",
+        "idNumber": "",
+        "expiryDate": "2026-01-31T00:00:00.000Z",
+        "bvn": "56565544555",
+        "nin": "50583280555"
+    },
+    "guardianInformation": {
+        "firstName": "",
+        "lastName": "",
+        "gender": "",
+        "natureOfRelationship": ""
+    }
+}

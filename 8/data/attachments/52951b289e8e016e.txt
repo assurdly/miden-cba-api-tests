@@ -1,0 +1,1 @@
+{"data":{"responseData":"Pending User with id 5ec5e8d1-5e81-4533-8a7c-484f12b4652e successfully cancelled","responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

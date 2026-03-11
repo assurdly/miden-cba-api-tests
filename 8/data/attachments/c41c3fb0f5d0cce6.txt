@@ -1,0 +1,8 @@
+{
+    "sourceCurrency": "NGN",
+    "destinationCurrency": "BRL",
+    "rateCode": "NGN/BRL",
+    "markupLimit": "53.3",
+    "rate": 1000,
+    "treasuryAccountPlaceholder": "PH4001"
+}

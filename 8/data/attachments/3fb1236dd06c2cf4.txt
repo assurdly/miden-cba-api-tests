@@ -1,0 +1,7 @@
+{
+  "id": "31833ae6-9652-4331-b42a-d4b958499fc6",
+  "currencyCode": "PLN",
+  "denominationValue": 40,
+  "type": "Coin",
+  "strapCount": 4
+}

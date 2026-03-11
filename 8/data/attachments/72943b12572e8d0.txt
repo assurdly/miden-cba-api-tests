@@ -1,0 +1,82 @@
+{
+    "title": "Eng",
+    "firstName": "test",
+    "middleName": "test",
+    "lastName": "test",
+    "shortName": "test",
+    "gender": "Male",
+    "bvn": "23456765431",
+    "nin": "43234567641",
+    "motherMaidenName": "test",
+    "maritalStatus": "Single",
+    "countryOfOrigin": "NGA",
+    "stateOfOrigin": "FC",
+    "localGoverment": "test",
+    "numberOfDependents": "1",
+    "dateOfBirth": "2024-09-02T23:00:00.000Z",
+    "customerSegment": "Individual",
+    "customerSubSegment": "RegularIndividuals",
+    "isCustomerSuspended": "NO",
+    "isCustomerBlacklisted": "NO",
+    "isCustomerStaff": "NO",
+    "staffId": "545678",
+    "guardian": {
+        "guardianType": "Grandchild",
+        "customerID": "345678",
+        "firstName": "test",
+        "lastName": "test",
+        "name": "test test",
+        "phoneNumber": "33455456678",
+        "emailID": "test@wers.co",
+        "dateOfBirth": "2023-06-30T23:00:00.000Z"
+    },
+    "phoneNumberDetails": [
+        {
+            "type": "Home",
+            "phoneNumber": "445678887",
+            "preferredPhone": false,
+            "countryDialCode": "+234"
+        }
+    ],
+    "emailDetails": [
+        {
+            "typeOfEmail": "Business",
+            "emailID": "test@qwee.co",
+            "preferredEmail": false
+        }
+    ],
+    "addressDetails": [
+        {
+            "type": "Home",
+            "residingSince": "2023-11-05T23:00:00.000Z",
+            "country": "NGA",
+            "state": "FC",
+            "city": "ASOKORO",
+            "postalCode": "890",
+            "line1": "test",
+            "line2": "test",
+            "preferredAddress": false
+        }
+    ], "relations": [
+    {
+      "relationshipType": "Sibling",
+      "relationCustomerId": "string",
+      "firstName": "string",
+      "lastName": "string",
+      "phoneNumber": "string",
+      "email": "string",
+      "addressLine1": "string",
+      "addressLine2": "string",
+      "state": "Lagos",
+      "country": "string",
+      "city": "string",
+      "postalCode": "string",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
+  ],
+    "minor": "Yes",
+    "isCompleted": false,
+    "draftRequest": {
+        "step": "1"
+    }
+}

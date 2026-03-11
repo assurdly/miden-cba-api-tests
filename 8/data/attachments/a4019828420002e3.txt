@@ -1,0 +1,37 @@
+{
+  "transactionType": "FundsTransfer",
+  "transactionSubType": "CustomerInduced",
+  "transactions": [
+    {
+      "accountNumber": "33310000733",
+      "partTransactionType": "D",
+      "transactionAmount": 10,
+      "transactionCurrency": "NGN",
+      "narration": "Entered Txn",
+      "valueDate": "2025-05-21",
+      "transactionReference": "17732232151773223215",
+      "reportCode": "",
+      "instrumentNumber": "",
+      "instrumentType": "",
+      
+      "transactionCode": "",
+      "temporaryOverdraftId": "",
+      "temporaryOverdraftType": "",
+      "standingInstructionSerialNumber": "",
+      "standingInstructionType": "",
+      "standingInstructionId": ""
+    },
+    {
+      "accountNumber": "7810000729",
+      "partTransactionType": "C",
+      "transactionAmount": 10,
+      "transactionCurrency": "NGN",
+      "narration": "Entered Txn",
+      "valueDate": "2025-05-21",
+      "transactionReference": "17732232151773223215"
+    }
+    
+  ],
+  "initiatingBranchId": "ALB01",
+  "enteredBy": "system"
+}

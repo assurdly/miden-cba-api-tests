@@ -1,0 +1,23 @@
+[
+  {
+    "account": "001NGN00096",
+    "currency": "GBP",
+    "id": "2725beb0-9f80-4c09-b947-e",
+    "userId": "e4ce269f-8ce6-4754-b8e1-7c44b982f349",
+    "isDeleted": false
+  }
+]
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+

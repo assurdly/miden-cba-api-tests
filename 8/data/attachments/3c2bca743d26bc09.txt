@@ -1,0 +1,7 @@
+{
+  "dataToken": "f9b84ad98c0e41aaa6358ab329d7caea",
+  "id": "2f26ec1c-2765-46e9-90dc-1d4488b253c3",
+  "isApproved": true,
+  "requiresAction": false,
+  "message": "Aprroving Corporate Customer Profile Edit for Monicent"
+}

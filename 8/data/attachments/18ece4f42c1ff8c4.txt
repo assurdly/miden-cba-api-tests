@@ -1,0 +1,10 @@
+{
+  "employeeID": "TY99818",
+  "firstName": "Tyla",
+  "lastName": "Banks",
+  "type": "Permanent",
+  "departmentIdentifier": "DPT101",
+  "email": "morgan+6@gmail.com",
+  "phoneNumber": "+2347002444200",
+  "branchId": "AL1"
+}

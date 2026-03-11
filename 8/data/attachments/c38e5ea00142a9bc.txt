@@ -1,0 +1,12 @@
+{
+  "glCode": "3001",
+  "glDescription": "Cash Testing",
+  "glSubCode": "1005",
+  "glSubDescription": "Cash in Transit Testing",
+  "glClassification": "A",
+  "currencies": [
+    "NGN",
+    "USD"
+  ],
+  "branchSet": "Test Branch 5"
+}

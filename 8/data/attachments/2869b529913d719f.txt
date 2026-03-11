@@ -1,0 +1,10 @@
+{
+  "instruments": [
+    {
+      "id": "b374aee5-f04f-40f4-b6a6-bdb55797608e",
+      "type": "cheque",
+      "usage": "Credit",
+      "isDeleted": true
+    }
+  ]
+}

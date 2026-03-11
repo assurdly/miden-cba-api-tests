@@ -1,0 +1,17 @@
+{
+  "filterParam": {
+    "additionalProp1": "string",
+    "additionalProp2": "string",
+    "additionalProp3": "string"
+  },
+  "sortParam": {
+    "sortColumn": "string",
+    "sortDirection": "Asc"
+  },
+  "pageNumber": 0,
+  "pageSize": 0,
+  "asOfDate": "2025-12-22T01:32:24.035Z",
+  "branchId": "string",
+  "glCode": "string",
+  "baseCurrency": "string"
+}

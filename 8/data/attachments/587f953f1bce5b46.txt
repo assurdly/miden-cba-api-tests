@@ -1,0 +1,1 @@
+{"data":{"responseData":"Loan Product with Code TFIS successfully rejected","responseCode":"000","responseMessage":"Successful"},"isSuccess":true,"error":null}

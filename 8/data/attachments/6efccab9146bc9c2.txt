@@ -1,0 +1,8 @@
+{
+  "dataToken": "{{lien_pending_dataToken_last}}",
+  "id": "{{lien_pending_id_last}}",
+  "isApproved": false,
+  "requiresAction": true,
+  "message": "string",
+  "isRemoveLien": true
+}

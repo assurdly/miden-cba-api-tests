@@ -1,0 +1,5 @@
+{
+  "name": "REJECT_USER_REQUEST",
+  "description": "This is a test",
+  "permissionId": "ff53374c-76a4-4168-b2af-0ad80da191cf"
+}
